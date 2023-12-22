@@ -36010,3 +36010,991 @@ MATERIAL_PROPERTY                1
 ===> Done reading
 ================================================================================
 
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 13:47:12 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 37
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           67
+GRAPH                            2
+CURVE_SET                        8
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          6
+REV_JOINT                       26
+FREE_JOINT                       2
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     2
+JOINT_DAMPER                     2
+REF_PLANE                        1
+ANIMATION                        2
+DOF_LOAD                         2
+BEAM_PROPERTY                    1
+BEAM                             4
+PART                            16
+MATERIAL_PROPERTY                1
+-------------------------------------
+===> Reading FE parts
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a.ftl ...OK
+  -> Calculating mass properties for Part [2] "sl-a"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i.ftl ...OK
+  -> Calculating mass properties for Part [3] "sl-i"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f.ftl ...OK
+  -> Calculating mass properties for Part [4] "sl-f"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e.ftl ...OK
+  -> Calculating mass properties for Part [5] "sl-e"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b.ftl ...OK
+  -> Calculating mass properties for Part [6] "sl-b"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c.ftl ...OK
+  -> Calculating mass properties for Part [7] "sl-c"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d.ftl ...OK
+  -> Calculating mass properties for Part [8] "sl-d"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g.ftl ...OK
+  -> Calculating mass properties for Part [9] "sl-g"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h.ftl ...OK
+  -> Calculating mass properties for Part [10] "sl-h"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j.ftl ...OK
+  -> Calculating mass properties for Part [11] "sl-j"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k.ftl ...OK
+  -> Calculating mass properties for Part [12] "sl-k"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l.ftl ...OK
+  -> Calculating mass properties for Part [13] "sl-l"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m.ftl ...OK
+  -> Calculating mass properties for Part [14] "sl-m"
+  -> Reading C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n.ftl ...OK
+  -> Calculating mass properties for Part [16] "sl-n"
+  -> Reading visualization data for Part [17] "Base"
+     from file "C:\Users\I338843\w3\fedem\public_models\scissor_lift\Parts\Base.wrl" ...  OK.
+  -> Reading visualization data for Part [18] "Base_Top"
+     from file "C:\Users\I338843\w3\fedem\public_models\scissor_lift\Parts\Base_Top.wrl" ...  OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB for results.
+  -> No simulation results present.
+  -> Found Reducer results:
+	link_DB\sl-a_0001\sl-a_1.frs
+	link_DB\sl-a_0001\sl-a_2.frs
+	link_DB\sl-i_0001\sl-i_1.frs
+	link_DB\sl-i_0001\sl-i_2.frs
+	link_DB\sl-f_0001\sl-f_1.frs
+	link_DB\sl-f_0001\sl-f_2.frs
+	link_DB\sl-e_0001\sl-e_1.frs
+	link_DB\sl-e_0001\sl-e_2.frs
+	link_DB\sl-b_0001\sl-b_1.frs
+	link_DB\sl-b_0001\sl-b_2.frs
+	link_DB\sl-c_0001\sl-c_1.frs
+	link_DB\sl-c_0001\sl-c_2.frs
+	link_DB\sl-d_0001\sl-d_1.frs
+	link_DB\sl-d_0001\sl-d_2.frs
+	link_DB\sl-g_0001\sl-g_1.frs
+	link_DB\sl-g_0001\sl-g_2.frs
+	link_DB\sl-h_0001\sl-h_1.frs
+	link_DB\sl-h_0001\sl-h_2.frs
+	link_DB\sl-j_0001\sl-j_1.frs
+	link_DB\sl-j_0001\sl-j_2.frs
+	link_DB\sl-k_0001\sl-k_1.frs
+	link_DB\sl-k_0001\sl-k_2.frs
+	link_DB\sl-l_0001\sl-l_1.frs
+	link_DB\sl-l_0001\sl-l_2.frs
+	link_DB\sl-m_0001\sl-m_1.frs
+	link_DB\sl-m_0001\sl-m_2.frs
+	link_DB\sl-n_0001\sl-n_1.frs
+	link_DB\sl-n_0001\sl-n_2.frs
+
+===> Done reading
+================================================================================
+
+===> Saving C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3.fmm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB
+  -> Recalculating check-sum for Part [2] "sl-a": 4135767016
+  -> Recalculating check-sum for Part [3] "sl-i": 3180390875
+  -> Recalculating check-sum for Part [4] "sl-f": 1941916054
+  -> Recalculating check-sum for Part [5] "sl-e": 3967163209
+  -> Recalculating check-sum for Part [6] "sl-b": 2859884646
+  -> Recalculating check-sum for Part [7] "sl-c": 2273697352
+  -> Recalculating check-sum for Part [8] "sl-d": 2034149142
+  -> Recalculating check-sum for Part [9] "sl-g": 3454496104
+  -> Recalculating check-sum for Part [10] "sl-h": 2866884921
+  -> Recalculating check-sum for Part [11] "sl-j": 3408512712
+  -> Recalculating check-sum for Part [12] "sl-k": 3526889148
+  -> Recalculating check-sum for Part [13] "sl-l": 1433003326
+  -> Recalculating check-sum for Part [14] "sl-m": 2059370219
+  -> Recalculating check-sum for Part [16] "sl-n": 2469539542
+  -> Model saved in C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3.fmm
+===> Done saving: Fri Dec 22 13:47:44 2023
+===> Refreshing the Result Data Base.
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-a.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-a.bdf ...OK
+  -> Calculating mass properties for Part [2] "sl-a"
+  -> Creating FE node 68455
+  -> Creating WAVGM element 63416 with reference node 68455
+  -> Creating FE node 68456
+  -> Creating BUSH element 63417 between nodes 68456 and 68455
+  -> Creating CMASS element 63418 on node 68455
+  -> Creating FE node 68457
+  -> Creating WAVGM element 63419 with reference node 68457
+  -> Creating FE node 68458
+  -> Creating BUSH element 63420 between nodes 68458 and 68457
+  -> Creating CMASS element 63421 on node 68457
+  -> Creating FE node 68459
+  -> Creating WAVGM element 63422 with reference node 68459
+  -> Creating FE node 68460
+  -> Creating BUSH element 63423 between nodes 68460 and 68459
+  -> Creating CMASS element 63424 on node 68459
+  -> Recalculating check-sum for Part [2] "sl-a": 2971602669
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-a_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-a_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-a.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-a.bdf ...OK
+  -> Calculating mass properties for Part [2] "sl-a"
+  -> Creating FE node 68455
+  -> Creating WAVGM element 63416 with reference node 68455
+  -> Creating FE node 68456
+  -> Creating BUSH element 63417 between nodes 68456 and 68455
+  -> Creating CMASS element 63418 on node 68455
+  -> Creating FE node 68457
+  -> Creating WAVGM element 63419 with reference node 68457
+  -> Creating FE node 68458
+  -> Creating BUSH element 63420 between nodes 68458 and 68457
+  -> Creating CMASS element 63421 on node 68457
+  -> Creating FE node 68459
+  -> Creating WAVGM element 63422 with reference node 68459
+  -> Creating FE node 68460
+  -> Creating BUSH element 63423 between nodes 68460 and 68459
+  -> Creating CMASS element 63424 on node 68459
+  -> Recalculating check-sum for Part [2] "sl-a": 2971602669
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-a_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-a_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-i.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-i.bdf ...OK
+  -> Calculating mass properties for Part [3] "sl-i"
+  -> Creating FE node 46406
+  -> Creating WAVGM element 45374 with reference node 46406
+  -> Creating FE node 46407
+  -> Creating BUSH element 45375 between nodes 46407 and 46406
+  -> Creating CMASS element 45376 on node 46406
+  -> Creating FE node 46408
+  -> Creating WAVGM element 45377 with reference node 46408
+  -> Creating FE node 46409
+  -> Creating BUSH element 45378 between nodes 46409 and 46408
+  -> Creating CMASS element 45379 on node 46408
+  -> Creating FE node 46410
+  -> Creating WAVGM element 45380 with reference node 46410
+  -> Creating FE node 46411
+  -> Creating BUSH element 45381 between nodes 46411 and 46410
+  -> Creating CMASS element 45382 on node 46410
+  -> Creating FE node 46412
+  -> Creating WAVGM element 45383 with reference node 46412
+  -> Creating FE node 46413
+  -> Creating BUSH element 45384 between nodes 46413 and 46412
+  -> Creating CMASS element 45385 on node 46412
+  -> Creating FE node 46414
+  -> Creating WAVGM element 45386 with reference node 46414
+  -> Creating FE node 46415
+  -> Creating BUSH element 45387 between nodes 46415 and 46414
+  -> Creating CMASS element 45388 on node 46414
+  -> Creating FE node 46416
+  -> Creating WAVGM element 45389 with reference node 46416
+  -> Creating FE node 46417
+  -> Creating BUSH element 45390 between nodes 46417 and 46416
+  -> Creating CMASS element 45391 on node 46416
+  -> Creating FE node 46418
+  -> Creating WAVGM element 45392 with reference node 46418
+  -> Creating FE node 46419
+  -> Creating BUSH element 45393 between nodes 46419 and 46418
+  -> Creating CMASS element 45394 on node 46418
+  -> Creating FE node 46420
+  -> Creating WAVGM element 45395 with reference node 46420
+  -> Creating FE node 46421
+  -> Creating BUSH element 45396 between nodes 46421 and 46420
+  -> Creating CMASS element 45397 on node 46420
+  -> Creating FE node 46422
+  -> Creating WAVGM element 45398 with reference node 46422
+  -> Creating FE node 46423
+  -> Creating BUSH element 45399 between nodes 46423 and 46422
+  -> Creating CMASS element 45400 on node 46422
+  -> Recalculating check-sum for Part [3] "sl-i": 1368158342
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-i_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-i_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-f.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-f.bdf ...OK
+  -> Calculating mass properties for Part [4] "sl-f"
+  -> Creating FE node 50680
+  -> Creating WAVGM element 48766 with reference node 50680
+  -> Creating FE node 50681
+  -> Creating BUSH element 48767 between nodes 50681 and 50680
+  -> Creating CMASS element 48768 on node 50680
+  -> Creating FE node 50682
+  -> Creating WAVGM element 48769 with reference node 50682
+  -> Creating FE node 50683
+  -> Creating BUSH element 48770 between nodes 50683 and 50682
+  -> Creating CMASS element 48771 on node 50682
+  -> Creating FE node 50684
+  -> Creating WAVGM element 48772 with reference node 50684
+  -> Creating FE node 50685
+  -> Creating BUSH element 48773 between nodes 50685 and 50684
+  -> Creating CMASS element 48774 on node 50684
+  -> Recalculating check-sum for Part [4] "sl-f": 3036784269
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-f_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-f_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-e.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-e.bdf ...OK
+  -> Calculating mass properties for Part [5] "sl-e"
+  -> Creating FE node 48543
+  -> Creating WAVGM element 47070 with reference node 48543
+  -> Creating FE node 48544
+  -> Creating BUSH element 47071 between nodes 48544 and 48543
+  -> Creating CMASS element 47072 on node 48543
+  -> Creating FE node 48545
+  -> Creating WAVGM element 47073 with reference node 48545
+  -> Creating FE node 48546
+  -> Creating BUSH element 47074 between nodes 48546 and 48545
+  -> Creating CMASS element 47075 on node 48545
+  -> Creating FE node 48547
+  -> Creating WAVGM element 47076 with reference node 48547
+  -> Creating FE node 48548
+  -> Creating BUSH element 47077 between nodes 48548 and 48547
+  -> Creating CMASS element 47078 on node 48547
+  -> Recalculating check-sum for Part [5] "sl-e": 2283877036
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-e_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-e_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-b.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-b.bdf ...OK
+  -> Calculating mass properties for Part [6] "sl-b"
+  -> Creating FE node 70592
+  -> Creating WAVGM element 65112 with reference node 70592
+  -> Creating FE node 70593
+  -> Creating BUSH element 65113 between nodes 70593 and 70592
+  -> Creating CMASS element 65114 on node 70592
+  -> Creating FE node 70594
+  -> Creating WAVGM element 65115 with reference node 70594
+  -> Creating FE node 70595
+  -> Creating BUSH element 65116 between nodes 70595 and 70594
+  -> Creating CMASS element 65117 on node 70594
+  -> Creating FE node 70596
+  -> Creating WAVGM element 65118 with reference node 70596
+  -> Creating FE node 70597
+  -> Creating BUSH element 65119 between nodes 70597 and 70596
+  -> Creating CMASS element 65120 on node 70596
+  -> Recalculating check-sum for Part [6] "sl-b": 1165447946
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-b_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-b_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-c.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-c.bdf ...OK
+  -> Calculating mass properties for Part [7] "sl-c"
+  -> Creating FE node 77003
+  -> Creating WAVGM element 70200 with reference node 77003
+  -> Creating FE node 77004
+  -> Creating BUSH element 70201 between nodes 77004 and 77003
+  -> Creating CMASS element 70202 on node 77003
+  -> Creating FE node 77005
+  -> Creating WAVGM element 70203 with reference node 77005
+  -> Creating FE node 77006
+  -> Creating BUSH element 70204 between nodes 77006 and 77005
+  -> Creating CMASS element 70205 on node 77005
+  -> Creating FE node 77007
+  -> Creating WAVGM element 70206 with reference node 77007
+  -> Creating FE node 77008
+  -> Creating BUSH element 70207 between nodes 77008 and 77007
+  -> Creating CMASS element 70208 on node 77007
+  -> Recalculating check-sum for Part [7] "sl-c": 1306180329
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-c_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-c_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-d.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-d.bdf ...OK
+  -> Calculating mass properties for Part [8] "sl-d"
+  -> Creating FE node 79140
+  -> Creating WAVGM element 71896 with reference node 79140
+  -> Creating FE node 79141
+  -> Creating BUSH element 71897 between nodes 79141 and 79140
+  -> Creating CMASS element 71898 on node 79140
+  -> Creating FE node 79142
+  -> Creating WAVGM element 71899 with reference node 79142
+  -> Creating FE node 79143
+  -> Creating BUSH element 71900 between nodes 79143 and 79142
+  -> Creating CMASS element 71901 on node 79142
+  -> Creating FE node 79144
+  -> Creating WAVGM element 71902 with reference node 79144
+  -> Creating FE node 79145
+  -> Creating BUSH element 71903 between nodes 79145 and 79144
+  -> Creating CMASS element 71904 on node 79144
+  -> Recalculating check-sum for Part [8] "sl-d": 2319641109
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-d_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-d_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-g.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-g.bdf ...OK
+  -> Calculating mass properties for Part [9] "sl-g"
+  -> Creating FE node 72729
+  -> Creating WAVGM element 66808 with reference node 72729
+  -> Creating FE node 72730
+  -> Creating BUSH element 66809 between nodes 72730 and 72729
+  -> Creating CMASS element 66810 on node 72729
+  -> Creating FE node 72731
+  -> Creating WAVGM element 66811 with reference node 72731
+  -> Creating FE node 72732
+  -> Creating BUSH element 66812 between nodes 72732 and 72731
+  -> Creating CMASS element 66813 on node 72731
+  -> Creating FE node 72733
+  -> Creating WAVGM element 66814 with reference node 72733
+  -> Creating FE node 72734
+  -> Creating BUSH element 66815 between nodes 72734 and 72733
+  -> Creating CMASS element 66816 on node 72733
+  -> Recalculating check-sum for Part [9] "sl-g": 3554482444
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-g_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-g_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-h.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-h.bdf ...OK
+  -> Calculating mass properties for Part [10] "sl-h"
+  -> Creating FE node 74866
+  -> Creating WAVGM element 68504 with reference node 74866
+  -> Creating FE node 74867
+  -> Creating BUSH element 68505 between nodes 74867 and 74866
+  -> Creating CMASS element 68506 on node 74866
+  -> Creating FE node 74868
+  -> Creating WAVGM element 68507 with reference node 74868
+  -> Creating FE node 74869
+  -> Creating BUSH element 68508 between nodes 74869 and 74868
+  -> Creating CMASS element 68509 on node 74868
+  -> Creating FE node 74870
+  -> Creating WAVGM element 68510 with reference node 74870
+  -> Creating FE node 74871
+  -> Creating BUSH element 68511 between nodes 74871 and 74870
+  -> Creating CMASS element 68512 on node 74870
+  -> Recalculating check-sum for Part [10] "sl-h": 3686103917
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-h_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-h_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-j.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-j.bdf ...OK
+  -> Calculating mass properties for Part [11] "sl-j"
+  -> Creating FE node 55892
+  -> Creating WAVGM element 53084 with reference node 55892
+  -> Creating FE node 55893
+  -> Creating BUSH element 53085 between nodes 55893 and 55892
+  -> Creating CMASS element 53086 on node 55892
+  -> Creating FE node 55894
+  -> Creating WAVGM element 53087 with reference node 55894
+  -> Creating FE node 55895
+  -> Creating BUSH element 53088 between nodes 55895 and 55894
+  -> Creating CMASS element 53089 on node 55894
+  -> Creating FE node 55896
+  -> Creating WAVGM element 53090 with reference node 55896
+  -> Creating FE node 55897
+  -> Creating BUSH element 53091 between nodes 55897 and 55896
+  -> Creating CMASS element 53092 on node 55896
+  -> Creating FE node 55898
+  -> Creating WAVGM element 53093 with reference node 55898
+  -> Creating FE node 55899
+  -> Creating BUSH element 53094 between nodes 55899 and 55898
+  -> Creating CMASS element 53095 on node 55898
+  -> Creating FE node 55900
+  -> Creating WAVGM element 53096 with reference node 55900
+  -> Creating FE node 55901
+  -> Creating BUSH element 53097 between nodes 55901 and 55900
+  -> Creating CMASS element 53098 on node 55900
+  -> Creating FE node 55902
+  -> Creating WAVGM element 53099 with reference node 55902
+  -> Creating FE node 55903
+  -> Creating BUSH element 53100 between nodes 55903 and 55902
+  -> Creating CMASS element 53101 on node 55902
+  -> Creating FE node 55904
+  -> Creating WAVGM element 53102 with reference node 55904
+  -> Creating FE node 55905
+  -> Creating BUSH element 53103 between nodes 55905 and 55904
+  -> Creating CMASS element 53104 on node 55904
+  -> Recalculating check-sum for Part [11] "sl-j": 1147754906
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-j_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-j_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-k.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-k.bdf ...OK
+  -> Calculating mass properties for Part [12] "sl-k"
+  -> Creating FE node 61104
+  -> Creating WAVGM element 57402 with reference node 61104
+  -> Creating FE node 61105
+  -> Creating BUSH element 57403 between nodes 61105 and 61104
+  -> Creating CMASS element 57404 on node 61104
+  -> Creating FE node 61106
+  -> Creating WAVGM element 57405 with reference node 61106
+  -> Creating FE node 61107
+  -> Creating BUSH element 57406 between nodes 61107 and 61106
+  -> Creating CMASS element 57407 on node 61106
+  -> Creating FE node 61108
+  -> Creating WAVGM element 57408 with reference node 61108
+  -> Creating FE node 61109
+  -> Creating BUSH element 57409 between nodes 61109 and 61108
+  -> Creating CMASS element 57410 on node 61108
+  -> Creating FE node 61110
+  -> Creating WAVGM element 57411 with reference node 61110
+  -> Creating FE node 61111
+  -> Creating BUSH element 57412 between nodes 61111 and 61110
+  -> Creating CMASS element 57413 on node 61110
+  -> Creating FE node 61112
+  -> Creating WAVGM element 57414 with reference node 61112
+  -> Creating FE node 61113
+  -> Creating BUSH element 57415 between nodes 61113 and 61112
+  -> Creating CMASS element 57416 on node 61112
+  -> Creating FE node 61114
+  -> Creating WAVGM element 57417 with reference node 61114
+  -> Creating FE node 61115
+  -> Creating BUSH element 57418 between nodes 61115 and 61114
+  -> Creating CMASS element 57419 on node 61114
+  -> Creating FE node 61116
+  -> Creating WAVGM element 57420 with reference node 61116
+  -> Creating FE node 61117
+  -> Creating BUSH element 57421 between nodes 61117 and 61116
+  -> Creating CMASS element 57422 on node 61116
+  -> Recalculating check-sum for Part [12] "sl-k": 1661357192
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-k_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-k_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-l.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-l.bdf ...OK
+  -> Calculating mass properties for Part [13] "sl-l"
+  -> Creating FE node 66318
+  -> Creating WAVGM element 61720 with reference node 66318
+  -> Creating FE node 66319
+  -> Creating BUSH element 61721 between nodes 66319 and 66318
+  -> Creating CMASS element 61722 on node 66318
+  -> Creating FE node 66320
+  -> Creating WAVGM element 61723 with reference node 66320
+  -> Creating FE node 66321
+  -> Creating BUSH element 61724 between nodes 66321 and 66320
+  -> Creating CMASS element 61725 on node 66320
+  -> Creating FE node 66322
+  -> Creating WAVGM element 61726 with reference node 66322
+  -> Creating FE node 66323
+  -> Creating BUSH element 61727 between nodes 66323 and 66322
+  -> Creating CMASS element 61728 on node 66322
+  -> Creating FE node 66324
+  -> Creating WAVGM element 61729 with reference node 66324
+  -> Creating FE node 66325
+  -> Creating BUSH element 61730 between nodes 66325 and 66324
+  -> Creating CMASS element 61731 on node 66324
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [99] 
+     [100] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Part [13] "sl-l": 1967305150
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-l_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-l_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-m.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-m.bdf ...OK
+  -> Calculating mass properties for Part [14] "sl-m"
+  -> Creating FE node 41194
+  -> Creating WAVGM element 41053 with reference node 41194
+  -> Creating FE node 41195
+  -> Creating BUSH element 41054 between nodes 41195 and 41194
+  -> Creating CMASS element 41055 on node 41194
+  -> Creating FE node 41196
+  -> Creating WAVGM element 41056 with reference node 41196
+  -> Creating FE node 41197
+  -> Creating BUSH element 41057 between nodes 41197 and 41196
+  -> Creating CMASS element 41058 on node 41196
+  -> Creating FE node 41198
+  -> Creating WAVGM element 41059 with reference node 41198
+  -> Creating FE node 41199
+  -> Creating BUSH element 41060 between nodes 41199 and 41198
+  -> Creating CMASS element 41061 on node 41198
+  -> Creating FE node 41200
+  -> Creating WAVGM element 41062 with reference node 41200
+  -> Creating FE node 41201
+  -> Creating BUSH element 41063 between nodes 41201 and 41200
+  -> Creating CMASS element 41064 on node 41200
+  -> Recalculating check-sum for Part [14] "sl-m": 801990593
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-m_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-m_0001
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-n.bdf
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\sl-n.bdf ...OK
+  -> Calculating mass properties for Part [16] "sl-n"
+  -> Creating FE node 40597
+  -> Creating WAVGM element 40525 with reference node 40597
+  -> Creating FE node 40598
+  -> Creating BUSH element 40526 between nodes 40598 and 40597
+  -> Creating CMASS element 40527 on node 40597
+  -> Creating FE node 40599
+  -> Creating WAVGM element 40528 with reference node 40599
+  -> Creating FE node 40600
+  -> Creating BUSH element 40529 between nodes 40600 and 40599
+  -> Creating CMASS element 40530 on node 40599
+  -> Creating FE node 40601
+  -> Creating WAVGM element 40531 with reference node 40601
+  -> Creating FE node 40602
+  -> Creating BUSH element 40532 between nodes 40602 and 40601
+  -> Creating CMASS element 40533 on node 40601
+  -> Creating FE node 40603
+  -> Creating WAVGM element 40534 with reference node 40603
+  -> Creating FE node 40604
+  -> Creating BUSH element 40535 between nodes 40604 and 40603
+  -> Creating CMASS element 40536 on node 40603
+  -> Recalculating check-sum for Part [16] "sl-n": 702895231
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-n_0001
+ --> Checking for reduced files in scissor_lift_3_RDB\link_DB\sl-n_0001
+  -> Reading visualization data for Part [17] "Base"
+     from file "C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\Base.wrl" ...  OK.
+  -> Reading visualization data for Part [18] "Base_Top"
+     from file "C:\Users\I338843\w3\fedem\public_models\scissor_lift\parts\Base_Top.wrl" ...  OK.
+===> Creating FE connection to Part [13] "sl-l"
+  -> Creating FE node 66326
+  -> Creating WAVGM element 61732 with reference node 66326
+  -> Creating FE node 66327
+  -> Creating BUSH element 61733 between nodes 66327 and 66326
+  -> Creating CMASS element 61734 on node 66326
+===> Creating FE connection to Part [13] "sl-l"
+  -> Creating FE node 66328
+  -> Creating WAVGM element 61735 with reference node 66328
+  -> Creating FE node 66329
+  -> Creating BUSH element 61736 between nodes 66329 and 66328
+  -> Creating CMASS element 61737 on node 66328
+===> Creating FE connection to Part [13] "sl-l"
+  -> Creating FE node 66330
+  -> Creating WAVGM element 61738 with reference node 66330
+  -> Creating FE node 66331
+  -> Creating BUSH element 61739 between nodes 66331 and 66330
+  -> Creating CMASS element 61740 on node 66330
+  -> Deleting WAVGM element 61735
+  -> Deleting BUSH element 61736
+  -> Deleting CMASS element 61737
+  -> Deleting FE node 66328
+  -> Deleting FE node 66329
+===> Saving C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3.fmm
+  -> Part [2] saved in sl-a.ftl
+  -> Part [3] saved in sl-i.ftl
+  -> Part [4] saved in sl-f.ftl
+  -> Part [5] saved in sl-e.ftl
+  -> Part [6] saved in sl-b.ftl
+  -> Part [7] saved in sl-c.ftl
+  -> Part [8] saved in sl-d.ftl
+  -> Part [9] saved in sl-g.ftl
+  -> Part [10] saved in sl-h.ftl
+  -> Part [11] saved in sl-j.ftl
+  -> Part [12] saved in sl-k.ftl
+  -> Part [13] saved in sl-l.ftl
+  -> Part [14] saved in sl-m.ftl
+  -> Part [16] saved in sl-n.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001\sl-a_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-a_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001\sl-b_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-b_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001\sl-c_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-c_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001\sl-d_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-d_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001\sl-e_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-e_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001\sl-f_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-f_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001\sl-g_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-g_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001\sl-h_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-h_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001\sl-i_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-i_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001\sl-j_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-j_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001\sl-k_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-k_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001\sl-l_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-l_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001\sl-m_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-m_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\fedem_reducer.fco
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\fedem_reducer.fop
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\fedem_reducer.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\progress_info.res
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_1.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_2.frs
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_B.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_E.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_G.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_M.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_S.fmx
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001\sl-n_SAM.fsm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB\sl-n_0001
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3_RDB\link_DB
+  -> Recalculating check-sum for Part [13] "sl-l": 3264170860
+  -> Model saved in C:\Users\I338843\w3\fedem\public_models\scissor_lift\scissor_lift_3.fmm
+===> Done saving: Fri Dec 22 13:54:40 2023
