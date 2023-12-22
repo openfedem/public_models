@@ -1,0 +1,16 @@
+/.idea
+/loader/parts/BellCrank.bdf
+/loader/parts/BellCrank.flm
+/loader/parts/Boom.bdf
+/loader/parts/Boom.flm
+/loader/parts/Bucket.bdf
+/loader/parts/Bucket.flm
+/loader/parts/BucketLink.bdf
+/loader/parts/BucketLink.flm
+/loader/parts/Front.bdf
+/loader/parts/Front.flm
+/loader/parts/README.md
+/**/*_RDB/
+/**/__*.*
+/**/*.fmm.bak
+
