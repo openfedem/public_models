@@ -1,0 +1,1488 @@
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 13:38:36 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 22
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\adjuster.ftc for reading.
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\linkage.nas ...OK
+  -> Creating FE node 3217
+  -> Creating WAVGM element 1628 with reference node 3217
+  -> Creating FE node 3218
+  -> Creating BUSH element 1629 between nodes 3218 and 3217
+  -> Creating CMASS element 1630 on node 3217
+  -> Creating FE node 3219
+  -> Creating WAVGM element 1631 with reference node 3219
+  -> Creating FE node 3220
+  -> Creating BUSH element 1632 between nodes 3220 and 3219
+  -> Creating CMASS element 1633 on node 3219
+  -> Creating FE node 3221
+  -> Creating WAVGM element 1634 with reference node 3221
+  -> Creating FE node 3222
+  -> Creating BUSH element 1635 between nodes 3222 and 3221
+  -> Creating CMASS element 1636 on node 3221
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\HandleUpper.nas ...OK
+  -> Creating FE node 1139
+  -> Creating WAVGM element 2143 with reference node 1139
+  -> Creating FE node 1140
+  -> Creating BUSH element 2144 between nodes 1140 and 1139
+  -> Creating CMASS element 2145 on node 1139
+  -> Creating FE node 1141
+  -> Creating WAVGM element 2146 with reference node 1141
+  -> Creating FE node 1142
+  -> Creating BUSH element 2147 between nodes 1142 and 1141
+  -> Creating CMASS element 2148 on node 1141
+  -> Creating FE node 1143
+  -> Creating WAVGM element 2149 with reference node 1143
+  -> Creating FE node 1144
+  -> Creating BUSH element 2150 between nodes 1144 and 1143
+  -> Creating CMASS element 2151 on node 1143
+  -> Creating FE node 1145
+  -> Creating WAVGM element 2152 with reference node 1145
+  -> Creating FE node 1146
+  -> Creating BUSH element 2153 between nodes 1146 and 1145
+  -> Creating CMASS element 2154 on node 1145
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\PadUpper.ftc for reading.
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\jawTop.nas ...OK
+  -> Creating FE node 6318
+  -> Creating WAVGM element 3257 with reference node 6318
+  -> Creating FE node 6319
+  -> Creating BUSH element 3258 between nodes 6319 and 6318
+  -> Creating CMASS element 3259 on node 6318
+  -> Creating FE node 6320
+  -> Creating WAVGM element 3260 with reference node 6320
+  -> Creating FE node 6321
+  -> Creating BUSH element 3261 between nodes 6321 and 6320
+  -> Creating CMASS element 3262 on node 6320
+  -> Creating FE node 6322
+  -> Creating WAVGM element 3263 with reference node 6322
+  -> Creating FE node 6323
+  -> Creating BUSH element 3264 between nodes 6323 and 6322
+  -> Creating CMASS element 3265 on node 6322
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\HandleLower.nas ...OK
+  -> Creating FE node 10587
+  -> Creating WAVGM element 5112 with reference node 10587
+  -> Creating FE node 10588
+  -> Creating BUSH element 5113 between nodes 10588 and 10587
+  -> Creating CMASS element 5114 on node 10587
+  -> Creating FE node 10589
+  -> Creating WAVGM element 5115 with reference node 10589
+  -> Creating FE node 10590
+  -> Creating BUSH element 5116 between nodes 10590 and 10589
+  -> Creating CMASS element 5117 on node 10589
+  -> Creating FE node 10591
+  -> Creating WAVGM element 5118 with reference node 10591
+  -> Creating FE node 10592
+  -> Creating BUSH element 5119 between nodes 10592 and 10591
+  -> Creating CMASS element 5120 on node 10591
+  -> Creating FE node 10593
+  -> Creating WAVGM element 5121 with reference node 10593
+  -> Creating FE node 10594
+  -> Creating BUSH element 5122 between nodes 10594 and 10593
+  -> Creating CMASS element 5123 on node 10593
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+===> Refreshing the Result Data Base.
+===> Refreshing the Result Data Base.
+===> Refreshing the Result Data Base.
+===> Refreshing the Result Data Base.
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 14:01:23 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 14:01:23 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 22
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\adjuster.ftc for reading.
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Search for the FE data file at these locations also failed:
+	C:\Users\I338843\w3\fedem\public_models\linkage.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\linkage.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\linkage.ftl
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Search for the FE data file at these locations also failed:
+	C:\Users\I338843\w3\fedem\public_models\HandleUpper.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\HandleUpper.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\HandleUpper.ftl
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\PadUpper.ftc for reading.
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Search for the FE data file at these locations also failed:
+	C:\Users\I338843\w3\fedem\public_models\jawTop.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\jawTop.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\jawTop.ftl
+  -> Could not find C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Search for the FE data file at these locations also failed:
+	C:\Users\I338843\w3\fedem\public_models\WeldGripMeshetest\HandleLower.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\HandleLower.nas
+	C:\Users\I338843\w3\fedem\public_models\welding_grip\HandleLower.ftl
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Note : Strain rosette [1] was not syncronized. (FE data not loaded).
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+===> Refreshing the Result Data Base.
+===> Refreshing the Result Data Base.
+===> Refreshing the Result Data Base.
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\linkage.nas
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\linkage.nas ...OK
+  -> Creating FE node 3217
+  -> Creating WAVGM element 1628 with reference node 3217
+  -> Creating FE node 3218
+  -> Creating BUSH element 1629 between nodes 3218 and 3217
+  -> Creating CMASS element 1630 on node 3217
+  -> Creating FE node 3219
+  -> Creating WAVGM element 1631 with reference node 3219
+  -> Creating FE node 3220
+  -> Creating BUSH element 1632 between nodes 3220 and 3219
+  -> Creating CMASS element 1633 on node 3219
+  -> Creating FE node 3221
+  -> Creating WAVGM element 1634 with reference node 3221
+  -> Creating FE node 3222
+  -> Creating BUSH element 1635 between nodes 3222 and 3221
+  -> Creating CMASS element 1636 on node 3221
+  -> Recalculating check-sum for Part [3] "linkage": 3461880124
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\HandleUpper.nas
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\HandleUpper.nas ...OK
+  -> Creating FE node 1139
+  -> Creating WAVGM element 2143 with reference node 1139
+  -> Creating FE node 1140
+  -> Creating BUSH element 2144 between nodes 1140 and 1139
+  -> Creating CMASS element 2145 on node 1139
+  -> Creating FE node 1141
+  -> Creating WAVGM element 2146 with reference node 1141
+  -> Creating FE node 1142
+  -> Creating BUSH element 2147 between nodes 1142 and 1141
+  -> Creating CMASS element 2148 on node 1141
+  -> Creating FE node 1143
+  -> Creating WAVGM element 2149 with reference node 1143
+  -> Creating FE node 1144
+  -> Creating BUSH element 2150 between nodes 1144 and 1143
+  -> Creating CMASS element 2151 on node 1143
+  -> Creating FE node 1145
+  -> Creating WAVGM element 2152 with reference node 1145
+  -> Creating FE node 1146
+  -> Creating BUSH element 2153 between nodes 1146 and 1145
+  -> Creating CMASS element 2154 on node 1145
+  -> Recalculating check-sum for Part [4] "HandleUpper": 1085936275
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\jawTop.nas
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\jawTop.nas ...OK
+  -> Creating FE node 6318
+  -> Creating WAVGM element 3257 with reference node 6318
+  -> Creating FE node 6319
+  -> Creating BUSH element 3258 between nodes 6319 and 6318
+  -> Creating CMASS element 3259 on node 6318
+  -> Creating FE node 6320
+  -> Creating WAVGM element 3260 with reference node 6320
+  -> Creating FE node 6321
+  -> Creating BUSH element 3261 between nodes 6321 and 6320
+  -> Creating CMASS element 3262 on node 6320
+  -> Creating FE node 6322
+  -> Creating WAVGM element 3263 with reference node 6322
+  -> Creating FE node 6323
+  -> Creating BUSH element 3264 between nodes 6323 and 6322
+  -> Creating CMASS element 3265 on node 6322
+  -> Recalculating check-sum for Part [6] "jawTop": 3891372056
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\HandleLower.nas
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\HandleLower.nas ...OK
+  -> Creating FE node 10587
+  -> Creating WAVGM element 5112 with reference node 10587
+  -> Creating FE node 10588
+  -> Creating BUSH element 5113 between nodes 10588 and 10587
+  -> Creating CMASS element 5114 on node 10587
+  -> Creating FE node 10589
+  -> Creating WAVGM element 5115 with reference node 10589
+  -> Creating FE node 10590
+  -> Creating BUSH element 5116 between nodes 10590 and 10589
+  -> Creating CMASS element 5117 on node 10589
+  -> Creating FE node 10591
+  -> Creating WAVGM element 5118 with reference node 10591
+  -> Creating FE node 10592
+  -> Creating BUSH element 5119 between nodes 10592 and 10591
+  -> Creating CMASS element 5120 on node 10591
+  -> Creating FE node 10593
+  -> Creating WAVGM element 5121 with reference node 10593
+  -> Creating FE node 10594
+  -> Creating BUSH element 5122 between nodes 10594 and 10593
+  -> Creating CMASS element 5123 on node 10593
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Part [7] "HandleLower": 457958441
+===> Saving C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Part [3] saved in linkage.ftl
+  -> Part [4] saved in HandleUpper.ftl
+  -> Part [6] saved in jawTop.ftl
+  -> Part [7] saved in HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Model saved in C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+===> Done saving: Fri Dec 22 14:04:28 2023
+  -> No saved FE data file for Part [1]
+ --> No FE data file for Part [1] "Metal-1"
+ --> No FE data file for Part [1] "Metal-1"
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\Metal.ftc for reading.
+  -> No saved FE data file for Part [1]
+ --> No FE data file for Part [1] "Metal-1"
+ --> No FE data file for Part [1] "Metal-1"
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\Metal.ftc
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\Metal.ftc
+  -> No readers registered for .ftc files
+  -> Trying to auto-detect ...
+  -> Sorry, could not identify the FE data file format.
+===> Loading FE data failed.
+ --> No FE data file for Part [1] "Metal"
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\Metal.ftc for reading.
+  -> No saved FE data file for Part [1]
+ --> No FE data file for Part [1] "Metal"
+ --> No FE data file for Part [1] "Metal"
+===> Open FE data file: C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\Metal.ftc
+  -> Importing FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\parts\Metal.ftc
+  -> No readers registered for .ftc files
+  -> Trying to auto-detect ...
+  -> Sorry, could not identify the FE data file format.
+===> Loading FE data failed.
+ --> No FE data file for Part [1] "Metal"
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\Metal.ftc for reading.
+===> Saving C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Model saved in C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+===> Done saving: Fri Dec 22 14:05:51 2023
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 14:08:30 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 14:08:30 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 24
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 14:11:04 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 14:11:04 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 24
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Recalculating check-sum for Part [6] "jawTop": 3588342478
+  -> Recalculating check-sum for Part [7] "HandleLower": 1448586042
+  -> Recalculating check-sum for Part [4] "HandleUpper": 553293774
+  -> Recalculating check-sum for Part [3] "linkage": 4138185495
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 14:57:26 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 14:57:26 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 24
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 14:59:41 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 14:59:41 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 24
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 15:01:20 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 15:01:31 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 24
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  -> Could not delete C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 15:03:09 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 15:03:09 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 24
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\parts/PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Recalculating check-sum for Part [3] "linkage": 4138185495
+  -> Recalculating check-sum for Part [4] "HandleUpper": 553293774
+  -> Recalculating check-sum for Part [6] "jawTop": 3588342478
+  -> Recalculating check-sum for Part [7] "HandleLower": 1448586042
+===> Moving FE model repository to C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB
+     FE-mod  Red.data  Part Name
+     Copied            [3] linkage
+     Copied            [4] HandleUpper
+     Copied            [6] jawTop
+     Copied            [7] HandleLower
+===> Done moving FE model repository.
+  -> Deleting "C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB\link_DB"
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+===> Saving C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model saved in C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+===> Done saving: Fri Dec 22 15:04:53 2023
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 15:05:49 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 15:05:49 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 25
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\parts/Metal.ftc for reading.
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\parts/adjuster.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Error: Could not open C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\parts/PadUpper.ftc for reading.
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> FE model loading failed.
+
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Deleting WAVGM element 5118
+  -> Deleting BUSH element 5119
+  -> Deleting CMASS element 5120
+  -> Deleting FE node 10591
+  -> Deleting FE node 10592
+  -> Deleting WAVGM element 1631
+  -> Deleting BUSH element 1632
+  -> Deleting CMASS element 1633
+  -> Deleting FE node 3219
+  -> Deleting FE node 3220
+  -> Deleting WAVGM element 1634
+  -> Deleting BUSH element 1635
+  -> Deleting CMASS element 1636
+  -> Deleting FE node 3221
+  -> Deleting FE node 3222
+  -> Deleting WAVGM element 2152
+  -> Deleting BUSH element 2153
+  -> Deleting CMASS element 2154
+  -> Deleting FE node 1145
+  -> Deleting FE node 1146
+  -> Deleting WAVGM element 5115
+  -> Deleting BUSH element 5116
+  -> Deleting CMASS element 5117
+  -> Deleting FE node 10589
+  -> Deleting FE node 10590
+  -> Deleting WAVGM element 2143
+  -> Deleting BUSH element 2144
+  -> Deleting CMASS element 2145
+  -> Deleting FE node 1139
+  -> Deleting FE node 1140
+  -> Deleting WAVGM element 3257
+  -> Deleting BUSH element 3258
+  -> Deleting CMASS element 3259
+  -> Deleting FE node 6318
+  -> Deleting FE node 6319
+  -> Deleting WAVGM element 1628
+  -> Deleting BUSH element 1629
+  -> Deleting CMASS element 1630
+  -> Deleting FE node 3217
+  -> Deleting FE node 3218
+  -> Deleting WAVGM element 2146
+  -> Deleting BUSH element 2147
+  -> Deleting CMASS element 2148
+  -> Deleting FE node 1141
+  -> Deleting FE node 1142
+  -> Deleting WAVGM element 5112
+  -> Deleting BUSH element 5113
+  -> Deleting CMASS element 5114
+  -> Deleting FE node 10587
+  -> Deleting FE node 10588
+  -> Deleting WAVGM element 3260
+  -> Deleting BUSH element 3261
+  -> Deleting CMASS element 3262
+  -> Deleting FE node 6320
+  -> Deleting FE node 6321
+  -> Deleting WAVGM element 3263
+  -> Deleting BUSH element 3264
+  -> Deleting CMASS element 3265
+  -> Deleting FE node 6322
+  -> Deleting FE node 6323
+  -> Deleting WAVGM element 2149
+  -> Deleting BUSH element 2150
+  -> Deleting CMASS element 2151
+  -> Deleting FE node 1143
+  -> Deleting FE node 1144
+  -> Deleting WAVGM element 5121
+  -> Deleting BUSH element 5122
+  -> Deleting CMASS element 5123
+  -> Deleting FE node 10593
+  -> Deleting FE node 10594
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 15:07:18 2023
+
+
+###> Model opened by Fedem R8.0 (build 2) at Fri Dec 22 15:07:18 2023
+
+===> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Model file created by Fedem version : R8.0 (build 2)  [8.0.0.2]
+  -> Save number : 25
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           22
+GRAPH                            8
+CURVE_SET                       38
+GLOBAL_VIEW_SETTINGS             1
+STICKER                          5
+REV_JOINT                        5
+FREE_JOINT                       4
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     3
+JOINT_DAMPER                     3
+REF_PLANE                        1
+FUNC_LIN_VAR                     3
+ENGINE                           1
+ANIMATION                        2
+GAGEOPTIONS                      1
+STRAIN_ROSETTE                   1
+JOINT_MOTION                     1
+DOF_LOAD                        23
+PART                             7
+-------------------------------------
+===> Reading FE parts
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\linkage.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\linkage.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleUpper.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleUpper.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\jawTop.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\jawTop.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Reading C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleLower.ftl
+  ** Warning: FE data file C:\Users\I338843\w3\fedem\public_models\welding_grip\link_DB\HandleLower.ftl
+     may have been edited manually (checksum mismatch) ...OK
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [26] 
+     This must be corrected before the Dynamics Solver can be run.
+===> Syncronizing Strain Rosettes with FE data:
+  -> Strain rosette [1] was syncronized OK.
+===> Scanning C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Error: Triad [26] on Part [7] is not on a valid FE node.
+
+---> A total of 1 errors were found.
+===> Dynamics Solver did NOT start
+  -> Recalculating check-sum for Part [4] "HandleUpper": 553293774
+===> Saving C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+  -> Recalculating check-sum for Part [3] "linkage": 4138185495
+  -> Recalculating check-sum for Part [6] "jawTop": 3588342478
+  -> Recalculating check-sum for Part [7] "HandleLower": 1448586042
+  -> Model saved in C:\Users\I338843\w3\fedem\public_models\welding_grip\welding_grip.fmm
+===> Done saving: Fri Dec 22 15:08:32 2023
+
+###> Model closed by Fedem R8.0 (build 2) at Fri Dec 22 15:08:34 2023
+
