@@ -1,0 +1,1492 @@
+
+###> Model opened by Fedem R5.0.1 at Mon Nov 08 09:57:01 2010
+
+===> Reading S:\Tutorials\ScissorLift\Scissor.fmm
+  -> Model file created by Fedem version : R4.2.1  [4.2.1]
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           67
+LINK                            16
+GRAPH                            5
+CURVE_SET                       16
+GLOBAL_VIEW_SETTINGS             1
+REV_JOINT                       28
+FREE_JOINT                       3
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     5
+JOINT_DAMPER                     5
+REF_PLANE                        1
+FUNC_LIN_VAR                     1
+ENGINE                           1
+ANIMATION                        8
+FPPOPTIONS                       1
+JOINT_LOAD                      41
+BEARING_FRICTION                 1
+-------------------------------------
+===> Reading links
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-a.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-a.bdf
+	S:\Tutorials\ScissorLift\Links\sl-a.bdf
+	S:\Tutorials\Links\sl-a.bdf
+	S:\Tutorials\ScissorLift\sl-a.bdf
+	S:\Tutorials\ScissorLift\sl-a.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-b.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-b.bdf
+	S:\Tutorials\ScissorLift\Links\sl-b.bdf
+	S:\Tutorials\Links\sl-b.bdf
+	S:\Tutorials\ScissorLift\sl-b.bdf
+	S:\Tutorials\ScissorLift\sl-b.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-c.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-c.bdf
+	S:\Tutorials\ScissorLift\Links\sl-c.bdf
+	S:\Tutorials\Links\sl-c.bdf
+	S:\Tutorials\ScissorLift\sl-c.bdf
+	S:\Tutorials\ScissorLift\sl-c.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-d.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-d.bdf
+	S:\Tutorials\ScissorLift\Links\sl-d.bdf
+	S:\Tutorials\Links\sl-d.bdf
+	S:\Tutorials\ScissorLift\sl-d.bdf
+	S:\Tutorials\ScissorLift\sl-d.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-e.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-e.bdf
+	S:\Tutorials\ScissorLift\Links\sl-e.bdf
+	S:\Tutorials\Links\sl-e.bdf
+	S:\Tutorials\ScissorLift\sl-e.bdf
+	S:\Tutorials\ScissorLift\sl-e.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-f.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-f.bdf
+	S:\Tutorials\ScissorLift\Links\sl-f.bdf
+	S:\Tutorials\Links\sl-f.bdf
+	S:\Tutorials\ScissorLift\sl-f.bdf
+	S:\Tutorials\ScissorLift\sl-f.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-g.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-g.bdf
+	S:\Tutorials\ScissorLift\Links\sl-g.bdf
+	S:\Tutorials\Links\sl-g.bdf
+	S:\Tutorials\ScissorLift\sl-g.bdf
+	S:\Tutorials\ScissorLift\sl-g.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-h.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-h.bdf
+	S:\Tutorials\ScissorLift\Links\sl-h.bdf
+	S:\Tutorials\Links\sl-h.bdf
+	S:\Tutorials\ScissorLift\sl-h.bdf
+	S:\Tutorials\ScissorLift\sl-h.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-i.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-i.bdf
+	S:\Tutorials\ScissorLift\Links\sl-i.bdf
+	S:\Tutorials\Links\sl-i.bdf
+	S:\Tutorials\ScissorLift\sl-i.bdf
+	S:\Tutorials\ScissorLift\sl-i.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-j.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-j.bdf
+	S:\Tutorials\ScissorLift\Links\sl-j.bdf
+	S:\Tutorials\Links\sl-j.bdf
+	S:\Tutorials\ScissorLift\sl-j.bdf
+	S:\Tutorials\ScissorLift\sl-j.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-k.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-k.bdf
+	S:\Tutorials\ScissorLift\Links\sl-k.bdf
+	S:\Tutorials\Links\sl-k.bdf
+	S:\Tutorials\ScissorLift\sl-k.bdf
+	S:\Tutorials\ScissorLift\sl-k.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-l.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-l.bdf
+	S:\Tutorials\ScissorLift\Links\sl-l.bdf
+	S:\Tutorials\Links\sl-l.bdf
+	S:\Tutorials\ScissorLift\sl-l.bdf
+	S:\Tutorials\ScissorLift\sl-l.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-m.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-m.bdf
+	S:\Tutorials\ScissorLift\Links\sl-m.bdf
+	S:\Tutorials\Links\sl-m.bdf
+	S:\Tutorials\ScissorLift\sl-m.bdf
+	S:\Tutorials\ScissorLift\sl-m.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-n.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-n.bdf
+	S:\Tutorials\ScissorLift\Links\sl-n.bdf
+	S:\Tutorials\Links\sl-n.bdf
+	S:\Tutorials\ScissorLift\sl-n.bdf
+	S:\Tutorials\ScissorLift\sl-n.ftl
+===> Link loading failed.
+
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+===> Scanning S:\Tutorials\ScissorLift\Scissor_RDB for results
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+
+###> Model closed by Fedem R5.0.1 at Mon Nov 08 09:57:48 2010
+
+
+###> Model opened by Fedem R6.0-i5 at Tue Aug 16 09:07:14 2011
+
+===> Reading S:\Tutorials\ScissorLift\Scissor.fmm
+  -> Model file created by Fedem version : R4.2.1  [4.2.1]
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           67
+LINK                            16
+GRAPH                            5
+CURVE_SET                       16
+GLOBAL_VIEW_SETTINGS             1
+REV_JOINT                       28
+FREE_JOINT                       3
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     5
+JOINT_DAMPER                     5
+REF_PLANE                        1
+FUNC_LIN_VAR                     1
+ENGINE                           1
+ANIMATION                        8
+FPPOPTIONS                       1
+BEARING_FRICTION                 1
+DOF_LOAD                        41
+-------------------------------------
+===> Reading links
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-a.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-a.bdf
+	S:\Tutorials\ScissorLift\Links\sl-a.bdf
+	S:\Tutorials\Links\sl-a.bdf
+	S:\Tutorials\ScissorLift\sl-a.bdf
+	S:\Tutorials\ScissorLift\sl-a.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-b.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-b.bdf
+	S:\Tutorials\ScissorLift\Links\sl-b.bdf
+	S:\Tutorials\Links\sl-b.bdf
+	S:\Tutorials\ScissorLift\sl-b.bdf
+	S:\Tutorials\ScissorLift\sl-b.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-c.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-c.bdf
+	S:\Tutorials\ScissorLift\Links\sl-c.bdf
+	S:\Tutorials\Links\sl-c.bdf
+	S:\Tutorials\ScissorLift\sl-c.bdf
+	S:\Tutorials\ScissorLift\sl-c.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-d.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-d.bdf
+	S:\Tutorials\ScissorLift\Links\sl-d.bdf
+	S:\Tutorials\Links\sl-d.bdf
+	S:\Tutorials\ScissorLift\sl-d.bdf
+	S:\Tutorials\ScissorLift\sl-d.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-e.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-e.bdf
+	S:\Tutorials\ScissorLift\Links\sl-e.bdf
+	S:\Tutorials\Links\sl-e.bdf
+	S:\Tutorials\ScissorLift\sl-e.bdf
+	S:\Tutorials\ScissorLift\sl-e.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-f.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-f.bdf
+	S:\Tutorials\ScissorLift\Links\sl-f.bdf
+	S:\Tutorials\Links\sl-f.bdf
+	S:\Tutorials\ScissorLift\sl-f.bdf
+	S:\Tutorials\ScissorLift\sl-f.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-g.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-g.bdf
+	S:\Tutorials\ScissorLift\Links\sl-g.bdf
+	S:\Tutorials\Links\sl-g.bdf
+	S:\Tutorials\ScissorLift\sl-g.bdf
+	S:\Tutorials\ScissorLift\sl-g.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-h.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-h.bdf
+	S:\Tutorials\ScissorLift\Links\sl-h.bdf
+	S:\Tutorials\Links\sl-h.bdf
+	S:\Tutorials\ScissorLift\sl-h.bdf
+	S:\Tutorials\ScissorLift\sl-h.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-i.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-i.bdf
+	S:\Tutorials\ScissorLift\Links\sl-i.bdf
+	S:\Tutorials\Links\sl-i.bdf
+	S:\Tutorials\ScissorLift\sl-i.bdf
+	S:\Tutorials\ScissorLift\sl-i.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-j.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-j.bdf
+	S:\Tutorials\ScissorLift\Links\sl-j.bdf
+	S:\Tutorials\Links\sl-j.bdf
+	S:\Tutorials\ScissorLift\sl-j.bdf
+	S:\Tutorials\ScissorLift\sl-j.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-k.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-k.bdf
+	S:\Tutorials\ScissorLift\Links\sl-k.bdf
+	S:\Tutorials\Links\sl-k.bdf
+	S:\Tutorials\ScissorLift\sl-k.bdf
+	S:\Tutorials\ScissorLift\sl-k.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-l.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-l.bdf
+	S:\Tutorials\ScissorLift\Links\sl-l.bdf
+	S:\Tutorials\Links\sl-l.bdf
+	S:\Tutorials\ScissorLift\sl-l.bdf
+	S:\Tutorials\ScissorLift\sl-l.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-m.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-m.bdf
+	S:\Tutorials\ScissorLift\Links\sl-m.bdf
+	S:\Tutorials\Links\sl-m.bdf
+	S:\Tutorials\ScissorLift\sl-m.bdf
+	S:\Tutorials\ScissorLift\sl-m.ftl
+  -> Could not find S:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-n.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-n.bdf
+	S:\Tutorials\ScissorLift\Links\sl-n.bdf
+	S:\Tutorials\Links\sl-n.bdf
+	S:\Tutorials\ScissorLift\sl-n.bdf
+	S:\Tutorials\ScissorLift\sl-n.ftl
+===> Link loading failed.
+
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+===> Scanning S:\Tutorials\ScissorLift\Scissor_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+  -> Reading visualization data for Link [1] Base
+     from file "S:\Tutorials\ScissorLift\Parts\Base.wrl" ...  OK.
+  -> Reading visualization data for Link [2] Base_Top
+     from file "S:\Tutorials\ScissorLift\Parts\Base_Top.wrl" ...  OK.
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-a.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-a.bdf ...OK
+  -> Calculating mass properties for Link [3] sl-a
+  -> Creating FE node 68455
+  -> Creating WAVGM element 63416 with reference node 68455
+  -> Creating FE node 68456
+  -> Creating BUSH element 63417 between nodes 68456 and 68455
+  -> Creating CMASS element 63418 on node 68455
+  -> Creating FE node 68457
+  -> Creating WAVGM element 63419 with reference node 68457
+  -> Creating FE node 68458
+  -> Creating BUSH element 63420 between nodes 68458 and 68457
+  -> Creating CMASS element 63421 on node 68457
+  -> Creating FE node 68459
+  -> Creating WAVGM element 63422 with reference node 68459
+  -> Creating FE node 68460
+  -> Creating BUSH element 63423 between nodes 68460 and 68459
+  -> Creating CMASS element 63424 on node 68459
+  -> Recalculating check-sum for Link [3] sl-a
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-b.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-b.bdf ...OK
+  -> Calculating mass properties for Link [4] sl-b
+  -> Creating FE node 70592
+  -> Creating WAVGM element 65112 with reference node 70592
+  -> Creating FE node 70593
+  -> Creating BUSH element 65113 between nodes 70593 and 70592
+  -> Creating CMASS element 65114 on node 70592
+  -> Creating FE node 70594
+  -> Creating WAVGM element 65115 with reference node 70594
+  -> Creating FE node 70595
+  -> Creating BUSH element 65116 between nodes 70595 and 70594
+  -> Creating CMASS element 65117 on node 70594
+  -> Creating FE node 70596
+  -> Creating WAVGM element 65118 with reference node 70596
+  -> Creating FE node 70597
+  -> Creating BUSH element 65119 between nodes 70597 and 70596
+  -> Creating CMASS element 65120 on node 70596
+  -> Recalculating check-sum for Link [4] sl-b
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-c.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-c.bdf ...OK
+  -> Calculating mass properties for Link [5] sl-c
+  -> Creating FE node 77003
+  -> Creating WAVGM element 70200 with reference node 77003
+  -> Creating FE node 77004
+  -> Creating BUSH element 70201 between nodes 77004 and 77003
+  -> Creating CMASS element 70202 on node 77003
+  -> Creating FE node 77005
+  -> Creating WAVGM element 70203 with reference node 77005
+  -> Creating FE node 77006
+  -> Creating BUSH element 70204 between nodes 77006 and 77005
+  -> Creating CMASS element 70205 on node 77005
+  -> Creating FE node 77007
+  -> Creating WAVGM element 70206 with reference node 77007
+  -> Creating FE node 77008
+  -> Creating BUSH element 70207 between nodes 77008 and 77007
+  -> Creating CMASS element 70208 on node 77007
+  -> Recalculating check-sum for Link [5] sl-c
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-d.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-d.bdf ...OK
+  -> Calculating mass properties for Link [6] sl-d
+  -> Creating FE node 79140
+  -> Creating WAVGM element 71896 with reference node 79140
+  -> Creating FE node 79141
+  -> Creating BUSH element 71897 between nodes 79141 and 79140
+  -> Creating CMASS element 71898 on node 79140
+  -> Creating FE node 79142
+  -> Creating WAVGM element 71899 with reference node 79142
+  -> Creating FE node 79143
+  -> Creating BUSH element 71900 between nodes 79143 and 79142
+  -> Creating CMASS element 71901 on node 79142
+  -> Creating FE node 79144
+  -> Creating WAVGM element 71902 with reference node 79144
+  -> Creating FE node 79145
+  -> Creating BUSH element 71903 between nodes 79145 and 79144
+  -> Creating CMASS element 71904 on node 79144
+  -> Recalculating check-sum for Link [6] sl-d
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-e.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-e.bdf ...OK
+  -> Calculating mass properties for Link [7] sl-e
+  -> Creating FE node 48543
+  -> Creating WAVGM element 47070 with reference node 48543
+  -> Creating FE node 48544
+  -> Creating BUSH element 47071 between nodes 48544 and 48543
+  -> Creating CMASS element 47072 on node 48543
+  -> Creating FE node 48545
+  -> Creating WAVGM element 47073 with reference node 48545
+  -> Creating FE node 48546
+  -> Creating BUSH element 47074 between nodes 48546 and 48545
+  -> Creating CMASS element 47075 on node 48545
+  -> Creating FE node 48547
+  -> Creating WAVGM element 47076 with reference node 48547
+  -> Creating FE node 48548
+  -> Creating BUSH element 47077 between nodes 48548 and 48547
+  -> Creating CMASS element 47078 on node 48547
+  -> Recalculating check-sum for Link [7] sl-e
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-f.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-f.bdf ...OK
+  -> Calculating mass properties for Link [8] sl-f
+  -> Creating FE node 50680
+  -> Creating WAVGM element 48766 with reference node 50680
+  -> Creating FE node 50681
+  -> Creating BUSH element 48767 between nodes 50681 and 50680
+  -> Creating CMASS element 48768 on node 50680
+  -> Creating FE node 50682
+  -> Creating WAVGM element 48769 with reference node 50682
+  -> Creating FE node 50683
+  -> Creating BUSH element 48770 between nodes 50683 and 50682
+  -> Creating CMASS element 48771 on node 50682
+  -> Creating FE node 50684
+  -> Creating WAVGM element 48772 with reference node 50684
+  -> Creating FE node 50685
+  -> Creating BUSH element 48773 between nodes 50685 and 50684
+  -> Creating CMASS element 48774 on node 50684
+  -> Recalculating check-sum for Link [8] sl-f
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-g.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-g.bdf ...OK
+  -> Calculating mass properties for Link [9] sl-g
+  -> Creating FE node 72729
+  -> Creating WAVGM element 66808 with reference node 72729
+  -> Creating FE node 72730
+  -> Creating BUSH element 66809 between nodes 72730 and 72729
+  -> Creating CMASS element 66810 on node 72729
+  -> Creating FE node 72731
+  -> Creating WAVGM element 66811 with reference node 72731
+  -> Creating FE node 72732
+  -> Creating BUSH element 66812 between nodes 72732 and 72731
+  -> Creating CMASS element 66813 on node 72731
+  -> Creating FE node 72733
+  -> Creating WAVGM element 66814 with reference node 72733
+  -> Creating FE node 72734
+  -> Creating BUSH element 66815 between nodes 72734 and 72733
+  -> Creating CMASS element 66816 on node 72733
+  -> Recalculating check-sum for Link [9] sl-g
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-h.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-h.bdf ...OK
+  -> Calculating mass properties for Link [10] sl-h
+  -> Creating FE node 74866
+  -> Creating WAVGM element 68504 with reference node 74866
+  -> Creating FE node 74867
+  -> Creating BUSH element 68505 between nodes 74867 and 74866
+  -> Creating CMASS element 68506 on node 74866
+  -> Creating FE node 74868
+  -> Creating WAVGM element 68507 with reference node 74868
+  -> Creating FE node 74869
+  -> Creating BUSH element 68508 between nodes 74869 and 74868
+  -> Creating CMASS element 68509 on node 74868
+  -> Creating FE node 74870
+  -> Creating WAVGM element 68510 with reference node 74870
+  -> Creating FE node 74871
+  -> Creating BUSH element 68511 between nodes 74871 and 74870
+  -> Creating CMASS element 68512 on node 74870
+  -> Recalculating check-sum for Link [10] sl-h
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-i.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-i.bdf ...OK
+  -> Calculating mass properties for Link [11] sl-i
+  -> Creating FE node 46406
+  -> Creating WAVGM element 45374 with reference node 46406
+  -> Creating FE node 46407
+  -> Creating BUSH element 45375 between nodes 46407 and 46406
+  -> Creating CMASS element 45376 on node 46406
+  -> Creating FE node 46408
+  -> Creating WAVGM element 45377 with reference node 46408
+  -> Creating FE node 46409
+  -> Creating BUSH element 45378 between nodes 46409 and 46408
+  -> Creating CMASS element 45379 on node 46408
+  -> Creating FE node 46410
+  -> Creating WAVGM element 45380 with reference node 46410
+  -> Creating FE node 46411
+  -> Creating BUSH element 45381 between nodes 46411 and 46410
+  -> Creating CMASS element 45382 on node 46410
+  -> Creating FE node 46412
+  -> Creating WAVGM element 45383 with reference node 46412
+  -> Creating FE node 46413
+  -> Creating BUSH element 45384 between nodes 46413 and 46412
+  -> Creating CMASS element 45385 on node 46412
+  -> Creating FE node 46414
+  -> Creating WAVGM element 45386 with reference node 46414
+  -> Creating FE node 46415
+  -> Creating BUSH element 45387 between nodes 46415 and 46414
+  -> Creating CMASS element 45388 on node 46414
+  -> Creating FE node 46416
+  -> Creating WAVGM element 45389 with reference node 46416
+  -> Creating FE node 46417
+  -> Creating BUSH element 45390 between nodes 46417 and 46416
+  -> Creating CMASS element 45391 on node 46416
+  -> Warning : The following triads are not positioned on a valid FE node:
+     [66] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Link [11] sl-i
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-j.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-j.bdf ...OK
+  -> Calculating mass properties for Link [12] sl-j
+  -> Creating FE node 55892
+  -> Creating WAVGM element 53084 with reference node 55892
+  -> Creating FE node 55893
+  -> Creating BUSH element 53085 between nodes 55893 and 55892
+  -> Creating CMASS element 53086 on node 55892
+  -> Creating FE node 55894
+  -> Creating WAVGM element 53087 with reference node 55894
+  -> Creating FE node 55895
+  -> Creating BUSH element 53088 between nodes 55895 and 55894
+  -> Creating CMASS element 53089 on node 55894
+  -> Creating FE node 55896
+  -> Creating WAVGM element 53090 with reference node 55896
+  -> Creating FE node 55897
+  -> Creating BUSH element 53091 between nodes 55897 and 55896
+  -> Creating CMASS element 53092 on node 55896
+  -> Creating FE node 55898
+  -> Creating WAVGM element 53093 with reference node 55898
+  -> Creating FE node 55899
+  -> Creating BUSH element 53094 between nodes 55899 and 55898
+  -> Creating CMASS element 53095 on node 55898
+  -> Creating FE node 55900
+  -> Creating WAVGM element 53096 with reference node 55900
+  -> Creating FE node 55901
+  -> Creating BUSH element 53097 between nodes 55901 and 55900
+  -> Creating CMASS element 53098 on node 55900
+  -> Creating FE node 55902
+  -> Creating WAVGM element 53099 with reference node 55902
+  -> Creating FE node 55903
+  -> Creating BUSH element 53100 between nodes 55903 and 55902
+  -> Creating CMASS element 53101 on node 55902
+  -> Warning : The following triads are not positioned on a valid FE node:
+     [67] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Link [12] sl-j
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-k.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-k.bdf ...OK
+  -> Calculating mass properties for Link [13] sl-k
+  -> Creating FE node 61104
+  -> Creating WAVGM element 57402 with reference node 61104
+  -> Creating FE node 61105
+  -> Creating BUSH element 57403 between nodes 61105 and 61104
+  -> Creating CMASS element 57404 on node 61104
+  -> Creating FE node 61106
+  -> Creating WAVGM element 57405 with reference node 61106
+  -> Creating FE node 61107
+  -> Creating BUSH element 57406 between nodes 61107 and 61106
+  -> Creating CMASS element 57407 on node 61106
+  -> Creating FE node 61108
+  -> Creating WAVGM element 57408 with reference node 61108
+  -> Creating FE node 61109
+  -> Creating BUSH element 57409 between nodes 61109 and 61108
+  -> Creating CMASS element 57410 on node 61108
+  -> Creating FE node 61110
+  -> Creating WAVGM element 57411 with reference node 61110
+  -> Creating FE node 61111
+  -> Creating BUSH element 57412 between nodes 61111 and 61110
+  -> Creating CMASS element 57413 on node 61110
+  -> Creating FE node 61112
+  -> Creating WAVGM element 57414 with reference node 61112
+  -> Creating FE node 61113
+  -> Creating BUSH element 57415 between nodes 61113 and 61112
+  -> Creating CMASS element 57416 on node 61112
+  -> Creating FE node 61114
+  -> Creating WAVGM element 57417 with reference node 61114
+  -> Creating FE node 61115
+  -> Creating BUSH element 57418 between nodes 61115 and 61114
+  -> Creating CMASS element 57419 on node 61114
+  -> Recalculating check-sum for Link [13] sl-k
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-l.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-l.bdf ...OK
+  -> Calculating mass properties for Link [14] sl-l
+  -> Creating FE node 66318
+  -> Creating WAVGM element 61720 with reference node 66318
+  -> Creating FE node 66319
+  -> Creating BUSH element 61721 between nodes 66319 and 66318
+  -> Creating CMASS element 61722 on node 66318
+  -> Creating FE node 66320
+  -> Creating WAVGM element 61723 with reference node 66320
+  -> Creating FE node 66321
+  -> Creating BUSH element 61724 between nodes 66321 and 66320
+  -> Creating CMASS element 61725 on node 66320
+  -> Creating FE node 66322
+  -> Creating WAVGM element 61726 with reference node 66322
+  -> Creating FE node 66323
+  -> Creating BUSH element 61727 between nodes 66323 and 66322
+  -> Creating CMASS element 61728 on node 66322
+  -> Creating FE node 66324
+  -> Creating WAVGM element 61729 with reference node 66324
+  -> Creating FE node 66325
+  -> Creating BUSH element 61730 between nodes 66325 and 66324
+  -> Creating CMASS element 61731 on node 66324
+  -> Creating FE node 66326
+  -> Creating WAVGM element 61732 with reference node 66326
+  -> Creating FE node 66327
+  -> Creating BUSH element 61733 between nodes 66327 and 66326
+  -> Creating CMASS element 61734 on node 66326
+  -> Creating FE node 66328
+  -> Creating WAVGM element 61735 with reference node 66328
+  -> Creating FE node 66329
+  -> Creating BUSH element 61736 between nodes 66329 and 66328
+  -> Creating CMASS element 61737 on node 66328
+  -> Recalculating check-sum for Link [14] sl-l
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-m.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-m.bdf ...OK
+  -> Calculating mass properties for Link [15] sl-m
+  -> Creating FE node 41194
+  -> Creating WAVGM element 41053 with reference node 41194
+  -> Creating FE node 41195
+  -> Creating BUSH element 41054 between nodes 41195 and 41194
+  -> Creating CMASS element 41055 on node 41194
+  -> Creating FE node 41196
+  -> Creating WAVGM element 41056 with reference node 41196
+  -> Creating FE node 41197
+  -> Creating BUSH element 41057 between nodes 41197 and 41196
+  -> Creating CMASS element 41058 on node 41196
+  -> Creating FE node 41198
+  -> Creating WAVGM element 41059 with reference node 41198
+  -> Creating FE node 41199
+  -> Creating BUSH element 41060 between nodes 41199 and 41198
+  -> Creating CMASS element 41061 on node 41198
+  -> Creating FE node 41200
+  -> Creating WAVGM element 41062 with reference node 41200
+  -> Creating FE node 41201
+  -> Creating BUSH element 41063 between nodes 41201 and 41200
+  -> Creating CMASS element 41064 on node 41200
+  -> Recalculating check-sum for Link [15] sl-m
+===> Open FE link file: S:\Tutorials\ScissorLift\Parts\sl-n.bdf
+  -> Importing link file S:\Tutorials\ScissorLift\Parts\sl-n.bdf ...OK
+  -> Calculating mass properties for Link [16] sl-n
+  -> Creating FE node 40597
+  -> Creating WAVGM element 40525 with reference node 40597
+  -> Creating FE node 40598
+  -> Creating BUSH element 40526 between nodes 40598 and 40597
+  -> Creating CMASS element 40527 on node 40597
+  -> Creating FE node 40599
+  -> Creating WAVGM element 40528 with reference node 40599
+  -> Creating FE node 40600
+  -> Creating BUSH element 40529 between nodes 40600 and 40599
+  -> Creating CMASS element 40530 on node 40599
+  -> Creating FE node 40601
+  -> Creating WAVGM element 40531 with reference node 40601
+  -> Creating FE node 40602
+  -> Creating BUSH element 40532 between nodes 40602 and 40601
+  -> Creating CMASS element 40533 on node 40601
+  -> Creating FE node 40603
+  -> Creating WAVGM element 40534 with reference node 40603
+  -> Creating FE node 40604
+  -> Creating BUSH element 40535 between nodes 40604 and 40603
+  -> Creating CMASS element 40536 on node 40603
+  -> Recalculating check-sum for Link [16] sl-n
+
+###> Model closed by Fedem R6.0-i5 at Tue Aug 16 09:11:01 2011
+
+
+###> Model opened by Fedem R6.0-i6 at Mon Apr 23 09:15:52 2012
+
+===> Reading \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor.fmm
+  -> Model file created by Fedem version : R4.2.1  [4.2.1]
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           67
+LINK                            16
+GRAPH                            5
+CURVE_SET                       16
+GLOBAL_VIEW_SETTINGS             1
+REV_JOINT                       28
+FREE_JOINT                       3
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     5
+JOINT_DAMPER                     5
+REF_PLANE                        1
+FUNC_LIN_VAR                     1
+ENGINE                           1
+ANIMATION                        8
+FPPOPTIONS                       1
+BEARING_FRICTION                 1
+DOF_LOAD                        41
+-------------------------------------
+===> Reading links
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-a.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-a.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-a.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-a.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-a.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-a.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-b.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-b.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-b.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-b.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-b.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-b.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-c.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-c.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-c.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-c.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-c.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-c.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-d.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-d.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-d.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-d.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-d.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-d.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-e.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-e.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-e.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-e.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-e.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-e.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-f.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-f.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-f.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-f.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-f.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-f.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-g.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-g.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-g.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-g.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-g.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-g.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-h.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-h.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-h.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-h.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-h.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-h.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-i.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-i.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-i.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-i.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-i.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-i.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-j.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-j.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-j.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-j.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-j.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-j.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-k.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-k.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-k.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-k.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-k.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-k.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-l.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-l.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-l.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-l.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-l.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-l.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-m.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-m.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-m.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-m.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-m.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-m.ftl
+  -> Could not find \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-n.ftl
+  -> Search for the link at these locations also failed:
+	D:\SCissor\Links\sl-n.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Links\sl-n.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\Links\sl-n.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-n.bdf
+	\\CAPTAIN\SalesArchive\Tutorials\ScissorLift\sl-n.ftl
+===> Link loading failed.
+
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Link [1] Base
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Link [2] Base_Top
+===> Scanning \\CAPTAIN\SalesArchive\Tutorials\ScissorLift\Scissor_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+
+###> Model closed by Fedem R6.0-i6 at Mon Apr 23 09:30:47 2012
+
+
+###> Model opened by Fedem R7.1.2 at Mon Mar 09 15:37:25 2015
+
+===> Reading Z:\Tutorials\ScissorLift\Scissor.fmm
+  -> Model file created by Fedem version : R4.2.1  [4.2.1]
+ ==> ACTIVE_ANALYSIS is not a defined fmm-file keyword for Mechanisms (1).
+ ==> ACTIVE_VIEW_SETTINGS is not a defined fmm-file keyword for Mechanisms (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Analysiss (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Animations (8).
+ ==> BASE_ID is not a defined fmm-file keyword for Bearing frictions (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Curves (16).
+ ==> BASE_ID is not a defined fmm-file keyword for FppOptionss (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Graphs (5).
+ ==> BASE_ID is not a defined fmm-file keyword for Poly lines (1).
+ ==> FATIGUE_FROM_FILE is not a defined fmm-file keyword for Curves (16).
+ ==> FUNC_USE is not a defined fmm-file keyword for Bearing frictions (1).
+ ==> MOTION_DATA is not a defined fmm-file keyword for Global view settingss (1).
+ ==> POLYS_ON_POINTS_OFF is not a defined fmm-file keyword for Parts (16).
+ ==> PREVIEW_FUNCTION is not a defined fmm-file keyword for Bearing frictions (1).
+ ==> SCALE_DAMPING is not a defined fmm-file keyword for Axial dampers (1).
+ ==> SCALE_DAMPING is not a defined fmm-file keyword for Joint dampers (5).
+ ==> SCALE_STIFFNESS is not a defined fmm-file keyword for Axial springs (1).
+ ==> SCALE_STIFFNESS is not a defined fmm-file keyword for Joint springs (5).
+ ==> USE_FUNCTION_FROM_OTHER_ENGINE is not a defined fmm-file keyword for Functions (1).
+ ==> X_AXIS_RESULT_LISTVIEW is not a defined fmm-file keyword for Curves (6).
+ ==> Y_AXIS_RESULT_LISTVIEW is not a defined fmm-file keyword for Curves (2).
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           67
+LINK                            16
+GRAPH                            5
+CURVE_SET                       16
+GLOBAL_VIEW_SETTINGS             1
+REV_JOINT                       28
+FREE_JOINT                       3
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     5
+JOINT_DAMPER                     5
+REF_PLANE                        1
+FUNC_LIN_VAR                     1
+ENGINE                           1
+FUNC_REV_JNT_FRICTION            1
+ANIMATION                        8
+FPPOPTIONS                       1
+JOINT_LOAD                      41
+-------------------------------------
+===> Reading FE parts
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-a.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-a.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-a.bdf
+	Z:\Tutorials\Links\sl-a.bdf
+	Z:\Tutorials\ScissorLift\sl-a.bdf
+	Z:\Tutorials\ScissorLift\sl-a.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-b.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-b.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-b.bdf
+	Z:\Tutorials\Links\sl-b.bdf
+	Z:\Tutorials\ScissorLift\sl-b.bdf
+	Z:\Tutorials\ScissorLift\sl-b.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-c.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-c.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-c.bdf
+	Z:\Tutorials\Links\sl-c.bdf
+	Z:\Tutorials\ScissorLift\sl-c.bdf
+	Z:\Tutorials\ScissorLift\sl-c.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-d.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-d.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-d.bdf
+	Z:\Tutorials\Links\sl-d.bdf
+	Z:\Tutorials\ScissorLift\sl-d.bdf
+	Z:\Tutorials\ScissorLift\sl-d.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-e.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-e.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-e.bdf
+	Z:\Tutorials\Links\sl-e.bdf
+	Z:\Tutorials\ScissorLift\sl-e.bdf
+	Z:\Tutorials\ScissorLift\sl-e.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-f.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-f.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-f.bdf
+	Z:\Tutorials\Links\sl-f.bdf
+	Z:\Tutorials\ScissorLift\sl-f.bdf
+	Z:\Tutorials\ScissorLift\sl-f.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-g.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-g.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-g.bdf
+	Z:\Tutorials\Links\sl-g.bdf
+	Z:\Tutorials\ScissorLift\sl-g.bdf
+	Z:\Tutorials\ScissorLift\sl-g.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-h.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-h.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-h.bdf
+	Z:\Tutorials\Links\sl-h.bdf
+	Z:\Tutorials\ScissorLift\sl-h.bdf
+	Z:\Tutorials\ScissorLift\sl-h.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-i.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-i.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-i.bdf
+	Z:\Tutorials\Links\sl-i.bdf
+	Z:\Tutorials\ScissorLift\sl-i.bdf
+	Z:\Tutorials\ScissorLift\sl-i.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-j.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-j.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-j.bdf
+	Z:\Tutorials\Links\sl-j.bdf
+	Z:\Tutorials\ScissorLift\sl-j.bdf
+	Z:\Tutorials\ScissorLift\sl-j.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-k.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-k.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-k.bdf
+	Z:\Tutorials\Links\sl-k.bdf
+	Z:\Tutorials\ScissorLift\sl-k.bdf
+	Z:\Tutorials\ScissorLift\sl-k.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-l.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-l.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-l.bdf
+	Z:\Tutorials\Links\sl-l.bdf
+	Z:\Tutorials\ScissorLift\sl-l.bdf
+	Z:\Tutorials\ScissorLift\sl-l.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-m.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-m.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-m.bdf
+	Z:\Tutorials\Links\sl-m.bdf
+	Z:\Tutorials\ScissorLift\sl-m.bdf
+	Z:\Tutorials\ScissorLift\sl-m.ftl
+  -> Could not find Z:\Tutorials\ScissorLift\Scissor_RDB\link_DB\sl-n.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-n.bdf
+	Z:\Tutorials\ScissorLift\Links\sl-n.bdf
+	Z:\Tutorials\Links\sl-n.bdf
+	Z:\Tutorials\ScissorLift\sl-n.bdf
+	Z:\Tutorials\ScissorLift\sl-n.ftl
+===> FE model loading failed.
+
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Part [1] "Base"
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Part [2] "Base_Top"
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Part [1] "Base"
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Part [2] "Base_Top"
+===> Scanning Z:\Tutorials\ScissorLift\Scissor_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+
+###> Model closed by Fedem R7.1.2 at Mon Mar 09 15:38:16 2015
+
+
+###> Model opened by Fedem R8.0 (build 2) at Thu Dec 21 10:44:51 2023
+
+===> Reading C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor.fmm
+  -> Model file created by Fedem version : R4.2.1  [4.2.1]
+  -> Save number : 57
+ ==> ACTIVE_ANALYSIS is not a defined fmm-file keyword for Mechanisms (1).
+ ==> ACTIVE_VIEW_SETTINGS is not a defined fmm-file keyword for Mechanisms (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Animations (8).
+ ==> BASE_ID is not a defined fmm-file keyword for Bearing frictions (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Curves (16).
+ ==> BASE_ID is not a defined fmm-file keyword for FppOptionss (1).
+ ==> BASE_ID is not a defined fmm-file keyword for Graphs (5).
+ ==> BASE_ID is not a defined fmm-file keyword for Poly lines (1).
+ ==> FATIGUE_FROM_FILE is not a defined fmm-file keyword for Curves (16).
+ ==> FUNC_USE is not a defined fmm-file keyword for Bearing frictions (1).
+ ==> MOTION_DATA is not a defined fmm-file keyword for Global view settingss (1).
+ ==> MULTI_FACERES_PREF_ELMGROUP_NAME is not a defined fmm-file keyword for Animations (8).
+ ==> OUTLINE_ANGLE_THRESHOLD is not a defined fmm-file keyword for Parts (16).
+ ==> POLYS_ON_POINTS_OFF is not a defined fmm-file keyword for Parts (16).
+ ==> PREVIEW_FUNCTION is not a defined fmm-file keyword for Bearing frictions (1).
+ ==> SCALE_DAMPING is not a defined fmm-file keyword for Axial dampers (1).
+ ==> SCALE_DAMPING is not a defined fmm-file keyword for Joint dampers (5).
+ ==> SCALE_STIFFNESS is not a defined fmm-file keyword for Axial springs (1).
+ ==> SCALE_STIFFNESS is not a defined fmm-file keyword for Joint springs (5).
+ ==> USE_FUNCTION_FROM_OTHER_ENGINE is not a defined fmm-file keyword for Functions (1).
+ ==> X_AXIS_RESULT_LISTVIEW is not a defined fmm-file keyword for Curves (6).
+ ==> Y_AXIS_RESULT_LISTVIEW is not a defined fmm-file keyword for Curves (2).
+
+
+Object type:                   Count:
+-------------------------------------
+MECHANISM                        1
+ANALYSIS                         1
+TRIAD                           67
+LINK                            16
+GRAPH                            5
+CURVE_SET                       16
+GLOBAL_VIEW_SETTINGS             1
+REV_JOINT                       28
+FREE_JOINT                       3
+RIGID_JOINT                      1
+AXIAL_DAMPER                     1
+AXIAL_SPRING                     1
+JOINT_SPRING                     5
+JOINT_DAMPER                     5
+REF_PLANE                        1
+FUNC_LIN_VAR                     1
+ENGINE                           1
+FUNC_REV_JNT_FRICTION            1
+ANIMATION                        8
+FPPOPTIONS                       1
+JOINT_LOAD                      41
+-------------------------------------
+===> Reading FE parts
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-a.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-a.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-a.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-a.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-a.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-a.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-b.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-b.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-b.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-b.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-b.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-b.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-c.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-c.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-c.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-c.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-c.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-c.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-d.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-d.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-d.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-d.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-d.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-d.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-e.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-e.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-e.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-e.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-e.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-e.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-f.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-f.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-f.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-f.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-f.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-f.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-g.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-g.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-g.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-g.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-g.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-g.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-h.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-h.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-h.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-h.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-h.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-h.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-i.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-i.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-i.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-i.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-i.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-i.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-j.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-j.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-j.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-j.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-j.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-j.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-k.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-k.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-k.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-k.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-k.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-k.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-l.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-l.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-l.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-l.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-l.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-l.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-m.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-m.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-m.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-m.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-m.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-m.ftl
+  -> Could not find C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB\link_DB\sl-n.ftl
+  -> Search for the FE data file at these locations also failed:
+	D:\SCissor\Links\sl-n.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Links\sl-n.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\Links\sl-n.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-n.bdf
+	C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\sl-n.ftl
+===> FE model loading failed.
+
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Part [1] "Base"
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Part [2] "Base_Top"
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base.wrl"
+             referenced by Part [1] "Base"
+  -> Error: Could not find visualization data file "D:\SCissor\Links\Base_Top.wrl"
+             referenced by Part [2] "Base_Top"
+===> Scanning C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Scissor_RDB for results.
+  -> No simulation results present.
+
+===> Done reading
+================================================================================
+
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-n.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-n.bdf ...OK
+  -> Calculating mass properties for Part [16] "sl-n"
+  -> Creating FE node 40597
+  -> Creating WAVGM element 40525 with reference node 40597
+  -> Creating FE node 40598
+  -> Creating BUSH element 40526 between nodes 40598 and 40597
+  -> Creating CMASS element 40527 on node 40597
+  -> Creating FE node 40599
+  -> Creating WAVGM element 40528 with reference node 40599
+  -> Creating FE node 40600
+  -> Creating BUSH element 40529 between nodes 40600 and 40599
+  -> Creating CMASS element 40530 on node 40599
+  -> Creating FE node 40601
+  -> Creating WAVGM element 40531 with reference node 40601
+  -> Creating FE node 40602
+  -> Creating BUSH element 40532 between nodes 40602 and 40601
+  -> Creating CMASS element 40533 on node 40601
+  -> Creating FE node 40603
+  -> Creating WAVGM element 40534 with reference node 40603
+  -> Creating FE node 40604
+  -> Creating BUSH element 40535 between nodes 40604 and 40603
+  -> Creating CMASS element 40536 on node 40603
+  -> Recalculating check-sum for Part [16] "sl-n": 803534266
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-n.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-n.bdf ...OK
+  -> Calculating mass properties for Part [16] "sl-n"
+  -> Creating FE node 40597
+  -> Creating WAVGM element 40525 with reference node 40597
+  -> Creating FE node 40598
+  -> Creating BUSH element 40526 between nodes 40598 and 40597
+  -> Creating CMASS element 40527 on node 40597
+  -> Creating FE node 40599
+  -> Creating WAVGM element 40528 with reference node 40599
+  -> Creating FE node 40600
+  -> Creating BUSH element 40529 between nodes 40600 and 40599
+  -> Creating CMASS element 40530 on node 40599
+  -> Creating FE node 40601
+  -> Creating WAVGM element 40531 with reference node 40601
+  -> Creating FE node 40602
+  -> Creating BUSH element 40532 between nodes 40602 and 40601
+  -> Creating CMASS element 40533 on node 40601
+  -> Creating FE node 40603
+  -> Creating WAVGM element 40534 with reference node 40603
+  -> Creating FE node 40604
+  -> Creating BUSH element 40535 between nodes 40604 and 40603
+  -> Creating CMASS element 40536 on node 40603
+  -> Recalculating check-sum for Part [16] "sl-n": 803534266
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-m.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-m.bdf ...OK
+  -> Calculating mass properties for Part [15] "sl-m"
+  -> Creating FE node 41194
+  -> Creating WAVGM element 41053 with reference node 41194
+  -> Creating FE node 41195
+  -> Creating BUSH element 41054 between nodes 41195 and 41194
+  -> Creating CMASS element 41055 on node 41194
+  -> Creating FE node 41196
+  -> Creating WAVGM element 41056 with reference node 41196
+  -> Creating FE node 41197
+  -> Creating BUSH element 41057 between nodes 41197 and 41196
+  -> Creating CMASS element 41058 on node 41196
+  -> Creating FE node 41198
+  -> Creating WAVGM element 41059 with reference node 41198
+  -> Creating FE node 41199
+  -> Creating BUSH element 41060 between nodes 41199 and 41198
+  -> Creating CMASS element 41061 on node 41198
+  -> Creating FE node 41200
+  -> Creating WAVGM element 41062 with reference node 41200
+  -> Creating FE node 41201
+  -> Creating BUSH element 41063 between nodes 41201 and 41200
+  -> Creating CMASS element 41064 on node 41200
+  -> Recalculating check-sum for Part [15] "sl-m": 3409471711
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-l.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-l.bdf ...OK
+  -> Calculating mass properties for Part [14] "sl-l"
+  -> Creating FE node 66318
+  -> Creating WAVGM element 61720 with reference node 66318
+  -> Creating FE node 66319
+  -> Creating BUSH element 61721 between nodes 66319 and 66318
+  -> Creating CMASS element 61722 on node 66318
+  -> Creating FE node 66320
+  -> Creating WAVGM element 61723 with reference node 66320
+  -> Creating FE node 66321
+  -> Creating BUSH element 61724 between nodes 66321 and 66320
+  -> Creating CMASS element 61725 on node 66320
+  -> Creating FE node 66322
+  -> Creating WAVGM element 61726 with reference node 66322
+  -> Creating FE node 66323
+  -> Creating BUSH element 61727 between nodes 66323 and 66322
+  -> Creating CMASS element 61728 on node 66322
+  -> Creating FE node 66324
+  -> Creating WAVGM element 61729 with reference node 66324
+  -> Creating FE node 66325
+  -> Creating BUSH element 61730 between nodes 66325 and 66324
+  -> Creating CMASS element 61731 on node 66324
+  -> Creating FE node 66326
+  -> Creating WAVGM element 61732 with reference node 66326
+  -> Creating FE node 66327
+  -> Creating BUSH element 61733 between nodes 66327 and 66326
+  -> Creating CMASS element 61734 on node 66326
+  -> Creating FE node 66328
+  -> Creating WAVGM element 61735 with reference node 66328
+  -> Creating FE node 66329
+  -> Creating BUSH element 61736 between nodes 66329 and 66328
+  -> Creating CMASS element 61737 on node 66328
+  -> Recalculating check-sum for Part [14] "sl-l": 2771723579
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-a.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-a.bdf ...OK
+  -> Calculating mass properties for Part [13] "sl-a"
+  -> Creating FE node 68455
+  -> Creating WAVGM element 63416 with reference node 68455
+  -> Creating FE node 68456
+  -> Creating BUSH element 63417 between nodes 68456 and 68455
+  -> Creating CMASS element 63418 on node 68455
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [19] 
+     [21] 
+     [22] 
+     [31] 
+     [32] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Part [13] "sl-a": 1512635206
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-j.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-j.bdf ...OK
+  -> Calculating mass properties for Part [12] "sl-j"
+  -> Creating FE node 55892
+  -> Creating WAVGM element 53084 with reference node 55892
+  -> Creating FE node 55893
+  -> Creating BUSH element 53085 between nodes 55893 and 55892
+  -> Creating CMASS element 53086 on node 55892
+  -> Creating FE node 55894
+  -> Creating WAVGM element 53087 with reference node 55894
+  -> Creating FE node 55895
+  -> Creating BUSH element 53088 between nodes 55895 and 55894
+  -> Creating CMASS element 53089 on node 55894
+  -> Creating FE node 55896
+  -> Creating WAVGM element 53090 with reference node 55896
+  -> Creating FE node 55897
+  -> Creating BUSH element 53091 between nodes 55897 and 55896
+  -> Creating CMASS element 53092 on node 55896
+  -> Creating FE node 55898
+  -> Creating WAVGM element 53093 with reference node 55898
+  -> Creating FE node 55899
+  -> Creating BUSH element 53094 between nodes 55899 and 55898
+  -> Creating CMASS element 53095 on node 55898
+  -> Creating FE node 55900
+  -> Creating WAVGM element 53096 with reference node 55900
+  -> Creating FE node 55901
+  -> Creating BUSH element 53097 between nodes 55901 and 55900
+  -> Creating CMASS element 53098 on node 55900
+  -> Creating FE node 55902
+  -> Creating WAVGM element 53099 with reference node 55902
+  -> Creating FE node 55903
+  -> Creating BUSH element 53100 between nodes 55903 and 55902
+  -> Creating CMASS element 53101 on node 55902
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [67] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Part [12] "sl-j": 3237185232
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-i.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-i.bdf ...OK
+  -> Calculating mass properties for Part [11] "sl-i"
+  -> Creating FE node 46406
+  -> Creating WAVGM element 45374 with reference node 46406
+  -> Creating FE node 46407
+  -> Creating BUSH element 45375 between nodes 46407 and 46406
+  -> Creating CMASS element 45376 on node 46406
+  -> Creating FE node 46408
+  -> Creating WAVGM element 45377 with reference node 46408
+  -> Creating FE node 46409
+  -> Creating BUSH element 45378 between nodes 46409 and 46408
+  -> Creating CMASS element 45379 on node 46408
+  -> Creating FE node 46410
+  -> Creating WAVGM element 45380 with reference node 46410
+  -> Creating FE node 46411
+  -> Creating BUSH element 45381 between nodes 46411 and 46410
+  -> Creating CMASS element 45382 on node 46410
+  -> Creating FE node 46412
+  -> Creating WAVGM element 45383 with reference node 46412
+  -> Creating FE node 46413
+  -> Creating BUSH element 45384 between nodes 46413 and 46412
+  -> Creating CMASS element 45385 on node 46412
+  -> Creating FE node 46414
+  -> Creating WAVGM element 45386 with reference node 46414
+  -> Creating FE node 46415
+  -> Creating BUSH element 45387 between nodes 46415 and 46414
+  -> Creating CMASS element 45388 on node 46414
+  -> Creating FE node 46416
+  -> Creating WAVGM element 45389 with reference node 46416
+  -> Creating FE node 46417
+  -> Creating BUSH element 45390 between nodes 46417 and 46416
+  -> Creating CMASS element 45391 on node 46416
+  -> Warning : The following Triads are not positioned on a valid FE node:
+     [66] 
+     This must be corrected before the Dynamics Solver can be run.
+  -> Recalculating check-sum for Part [11] "sl-i": 2573948835
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-h.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-h.bdf ...OK
+  -> Calculating mass properties for Part [10] "sl-h"
+  -> Creating FE node 74866
+  -> Creating WAVGM element 68504 with reference node 74866
+  -> Creating FE node 74867
+  -> Creating BUSH element 68505 between nodes 74867 and 74866
+  -> Creating CMASS element 68506 on node 74866
+  -> Creating FE node 74868
+  -> Creating WAVGM element 68507 with reference node 74868
+  -> Creating FE node 74869
+  -> Creating BUSH element 68508 between nodes 74869 and 74868
+  -> Creating CMASS element 68509 on node 74868
+  -> Creating FE node 74870
+  -> Creating WAVGM element 68510 with reference node 74870
+  -> Creating FE node 74871
+  -> Creating BUSH element 68511 between nodes 74871 and 74870
+  -> Creating CMASS element 68512 on node 74870
+  -> Recalculating check-sum for Part [10] "sl-h": 1324603810
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-g.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-g.bdf ...OK
+  -> Calculating mass properties for Part [9] "sl-g"
+  -> Creating FE node 72729
+  -> Creating WAVGM element 66808 with reference node 72729
+  -> Creating FE node 72730
+  -> Creating BUSH element 66809 between nodes 72730 and 72729
+  -> Creating CMASS element 66810 on node 72729
+  -> Creating FE node 72731
+  -> Creating WAVGM element 66811 with reference node 72731
+  -> Creating FE node 72732
+  -> Creating BUSH element 66812 between nodes 72732 and 72731
+  -> Creating CMASS element 66813 on node 72731
+  -> Creating FE node 72733
+  -> Creating WAVGM element 66814 with reference node 72733
+  -> Creating FE node 72734
+  -> Creating BUSH element 66815 between nodes 72734 and 72733
+  -> Creating CMASS element 66816 on node 72733
+  -> Recalculating check-sum for Part [9] "sl-g": 1647725979
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-f.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-f.bdf ...OK
+  -> Calculating mass properties for Part [8] "sl-f"
+  -> Creating FE node 50680
+  -> Creating WAVGM element 48766 with reference node 50680
+  -> Creating FE node 50681
+  -> Creating BUSH element 48767 between nodes 50681 and 50680
+  -> Creating CMASS element 48768 on node 50680
+  -> Creating FE node 50682
+  -> Creating WAVGM element 48769 with reference node 50682
+  -> Creating FE node 50683
+  -> Creating BUSH element 48770 between nodes 50683 and 50682
+  -> Creating CMASS element 48771 on node 50682
+  -> Creating FE node 50684
+  -> Creating WAVGM element 48772 with reference node 50684
+  -> Creating FE node 50685
+  -> Creating BUSH element 48773 between nodes 50685 and 50684
+  -> Creating CMASS element 48774 on node 50684
+  -> Recalculating check-sum for Part [8] "sl-f": 3247992145
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-e.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-e.bdf ...OK
+  -> Calculating mass properties for Part [7] "sl-e"
+  -> Creating FE node 48543
+  -> Creating WAVGM element 47070 with reference node 48543
+  -> Creating FE node 48544
+  -> Creating BUSH element 47071 between nodes 48544 and 48543
+  -> Creating CMASS element 47072 on node 48543
+  -> Creating FE node 48545
+  -> Creating WAVGM element 47073 with reference node 48545
+  -> Creating FE node 48546
+  -> Creating BUSH element 47074 between nodes 48546 and 48545
+  -> Creating CMASS element 47075 on node 48545
+  -> Creating FE node 48547
+  -> Creating WAVGM element 47076 with reference node 48547
+  -> Creating FE node 48548
+  -> Creating BUSH element 47077 between nodes 48548 and 48547
+  -> Creating CMASS element 47078 on node 48547
+  -> Recalculating check-sum for Part [7] "sl-e": 3222739475
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-d.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-d.bdf ...OK
+  -> Calculating mass properties for Part [6] "sl-d"
+  -> Creating FE node 79140
+  -> Creating WAVGM element 71896 with reference node 79140
+  -> Creating FE node 79141
+  -> Creating BUSH element 71897 between nodes 79141 and 79140
+  -> Creating CMASS element 71898 on node 79140
+  -> Creating FE node 79142
+  -> Creating WAVGM element 71899 with reference node 79142
+  -> Creating FE node 79143
+  -> Creating BUSH element 71900 between nodes 79143 and 79142
+  -> Creating CMASS element 71901 on node 79142
+  -> Creating FE node 79144
+  -> Creating WAVGM element 71902 with reference node 79144
+  -> Creating FE node 79145
+  -> Creating BUSH element 71903 between nodes 79145 and 79144
+  -> Creating CMASS element 71904 on node 79144
+  -> Recalculating check-sum for Part [6] "sl-d": 329867279
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-c.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-c.bdf ...OK
+  -> Calculating mass properties for Part [5] "sl-c"
+  -> Creating FE node 77003
+  -> Creating WAVGM element 70200 with reference node 77003
+  -> Creating FE node 77004
+  -> Creating BUSH element 70201 between nodes 77004 and 77003
+  -> Creating CMASS element 70202 on node 77003
+  -> Creating FE node 77005
+  -> Creating WAVGM element 70203 with reference node 77005
+  -> Creating FE node 77006
+  -> Creating BUSH element 70204 between nodes 77006 and 77005
+  -> Creating CMASS element 70205 on node 77005
+  -> Creating FE node 77007
+  -> Creating WAVGM element 70206 with reference node 77007
+  -> Creating FE node 77008
+  -> Creating BUSH element 70207 between nodes 77008 and 77007
+  -> Creating CMASS element 70208 on node 77007
+  -> Recalculating check-sum for Part [5] "sl-c": 571067335
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-b.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-b.bdf ...OK
+  -> Calculating mass properties for Part [4] "sl-b"
+  -> Creating FE node 70592
+  -> Creating WAVGM element 65112 with reference node 70592
+  -> Creating FE node 70593
+  -> Creating BUSH element 65113 between nodes 70593 and 70592
+  -> Creating CMASS element 65114 on node 70592
+  -> Creating FE node 70594
+  -> Creating WAVGM element 65115 with reference node 70594
+  -> Creating FE node 70595
+  -> Creating BUSH element 65116 between nodes 70595 and 70594
+  -> Creating CMASS element 65117 on node 70594
+  -> Creating FE node 70596
+  -> Creating WAVGM element 65118 with reference node 70596
+  -> Creating FE node 70597
+  -> Creating BUSH element 65119 between nodes 70597 and 70596
+  -> Creating CMASS element 65120 on node 70596
+  -> Recalculating check-sum for Part [4] "sl-b": 817086769
+===> Open FE data file: C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-a.bdf
+  -> Importing FE data file C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\sl-a.bdf ...OK
+  -> Calculating mass properties for Part [3] "sl-a"
+  -> Creating FE node 68455
+  -> Creating WAVGM element 63416 with reference node 68455
+  -> Creating FE node 68456
+  -> Creating BUSH element 63417 between nodes 68456 and 68455
+  -> Creating CMASS element 63418 on node 68455
+  -> Creating FE node 68457
+  -> Creating WAVGM element 63419 with reference node 68457
+  -> Creating FE node 68458
+  -> Creating BUSH element 63420 between nodes 68458 and 68457
+  -> Creating CMASS element 63421 on node 68457
+  -> Creating FE node 68459
+  -> Creating WAVGM element 63422 with reference node 68459
+  -> Creating FE node 68460
+  -> Creating BUSH element 63423 between nodes 68460 and 68459
+  -> Creating CMASS element 63424 on node 68459
+  -> Conflicting file name for Part [3]. New FTL base name: sl-a_ftl1.ftl (1)
+  -> Recalculating check-sum for Part [3] "sl-a": 1556408234
+  -> Reading visualization data for Part [2] "Base_Top"
+     from file "C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\Base_Top.wrl" ...  OK.
+  -> Reading visualization data for Part [1] "Base"
+     from file "C:\Users\I338843\OneDrive\w3\fedem\public_models\scissor_lift\work\Parts\Base.wrl" ...  OK.
+
+###> Model closed by Fedem R8.0 (build 2) at Thu Dec 21 10:50:01 2023
+

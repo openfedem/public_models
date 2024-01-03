@@ -1,0 +1,51 @@
+#accuracy: 1e-8
+
+requested_modes: &requested_modes 4
+#number_of_elements: 5
+
+Beam Analytics:
+  length: 1.0
+  density: 8000.0
+  elasticity_module: 2.0E+11
+  area: 1.0
+  second_moment_of_area: 1.2
+  requested_modes: *requested_modes
+
+
+Beam FEA:
+  A: &A # Structure = model or simular
+    material_properties:
+        material: [8000.0, 2.0E+11]
+    cross_section_parameters:
+        bar: [bar, 0.005]
+    points: &points
+        a: [0.0, 0.0]
+        b: [1.0, 0.0]
+
+    members: &members
+        x: [material, bar, a, b, 10]
+
+    boundary_conditions:
+        unsupported: []
+        supported: [a.12, b.2]
+        cantilever: [a.123]
+
+
+  B:  # Structure = model or simular
+    <<: *A
+    points:
+        <<: *points
+        c: [0.5, 0.5]
+
+    members:
+        <<: *members
+        y: [material, bar, x.5, c, 5]
+
+
+    boundary_conditions:
+        #unsupported: []
+        supported_B: [a.12, b.2]
+        #cantilever: [a.123]
+
+
+
