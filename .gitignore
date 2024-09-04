@@ -2,3 +2,5 @@
 *_RDB
 *.log
 *.fmm.bak
+*.pyc
+__pycache__
