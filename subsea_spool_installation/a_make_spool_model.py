@@ -5,6 +5,18 @@ from fedempy.enums import FmDof, FmDofStat, FmLoadType, FmType, FmVar
 FMM_TEMPLATE = "0_spool_model.fmm"
 FMM = ("1_spool_model.fmm")
 
+
+def make_crane_tip_operation():
+    xy = [[1, 0], [10, 1]]
+    extrapol_type = "FLAT"
+    return dict(xy=xy, extrapol_type=extrapol_type)
+
+def make_crane_wire_operation():
+    xy = [[10, 0], [20, 15]]
+    extrapol_type = "FLAT"
+    return dict(xy=xy, extrapol_type=extrapol_type)
+
+
 def make_spool_model():
     spool_model = FedemModeler(FMM_TEMPLATE)
 
@@ -16,12 +28,14 @@ def make_spool_model():
     ## Appending triads to the model
     triads = [spool_model.make_triad(f"Triad {i}", (x, y, 0.0)) for i, (x, y) in enumerate(spool_points)]
 
+
     ## Appending material and beam cross-section properties
-    steel_material = spool_model.make_beam_material("Steel", (7850, 2.1e11, 0.3))
-    beam_property = spool_model.make_beam_section("Pipe", steel_material, (0.5, 0.45))
+    #NOTE: Not used as material and cross sections are part of the template modelfile
+    #steel_material = spool_model.make_beam_material("Steel", (7850, 2.1e11, 0.3))
+    #beam_property = spool_model.make_beam_section("Pipe", steel_material, (0.5, 0.45))
 
     ## Appending beams to the model
-    beams = spool_model.make_beam("Spool beams", triads, beam_property)
+    beams = spool_model.make_beam("Spool beams", triads, "spool_properties")
 
     ## Defines the 3D point of the hook and appends a triad with mass for that point
     hook_triad = spool_model.make_triad(f"Hook Triad", (-0.43, -0.27 , 5.0))
@@ -38,7 +52,12 @@ def make_spool_model():
     crane_tip_triad = spool_model.make_triad(f"Crane tip triad", (-0.43, -0.27, 8.0))
     k = 2.1e11*0.020**2/(4*4)  # E x D^2 / (4 * L)
     xy = [[0.0, 0.0], [0.1, k]]
-    cable = spool_model.make_spring("Slings", (hook_triad, crane_tip_triad), xy=xy, extrapol_type="FLAT")
+    crane_wire_operation = spool_model.make_function("Crane wire operation", **make_crane_wire_operation())
+    cable = spool_model.make_spring("Slings", (hook_triad, crane_tip_triad),
+                                    xy=xy, extrapol_type="FLAT",
+                                    length=crane_wire_operation)
+
+    crane_tip_operation = spool_model.make_function("Crane tip operation", **make_crane_tip_operation())
 
     spool_model.edit_triad(crane_tip_triad,
                            constraints=dict(
@@ -48,8 +67,7 @@ def make_spool_model():
                                Rx=FmDofStat.FIXED,
                                Ry=FmDofStat.FIXED,
                                Rz=FmDofStat.FIXED),
-                           motion={"Tz": [[0, 0], [30, -10]]},
-                           motion={"Tz": -.1}
+                           motion={"Tz": crane_tip_operation},
                            )
 
     try:
